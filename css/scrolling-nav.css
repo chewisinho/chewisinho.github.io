@@ -24,7 +24,7 @@ ul {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 5px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -39,6 +39,13 @@ ul {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.contact-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
 .intro-section {
     padding-bottom: 50px;
     padding-top: 150px;
@@ -47,7 +54,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .note-section {
-    height: 100%;
+    padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
     background: #eee;
