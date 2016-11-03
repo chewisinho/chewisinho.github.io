@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "twig-markdown": "^0.1.2"
+  },
+  "description": "Personal website for Sinho Chewi.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-prettify": "^0.5.0",
+    "gulp-twig": "^0.6.0"
+  },
+  "license": "UNLICENSED",
+  "name": "chewisinho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chewisinho/chewisinho.github.io.git"
+  },
+  "version": "1.0.0"
+}

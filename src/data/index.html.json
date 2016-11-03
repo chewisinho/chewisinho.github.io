@@ -1,0 +1,231 @@
+{
+  "notes": [
+    {
+      "header": "COMPSCI 70",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5N1VSUGRyTC1RS28",
+          "name": "Midterm 1 Review Slides (Fall 2016)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5SHhiU1hZUVcxdGs", 
+          "name": "Probability Note 1: Probability Theory"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UElJel9zLVNkaTA", 
+          "name": "Probability Note 2: Discrete Random Variables"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5SHBYcEV3TVpnNTA", 
+          "name": "Probability Note 3: Variance & Inequalities"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5S0VEcDVjd2JEMFE",
+          "name": "Probability Note 4: Regression & Conditional Expectation"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Z3dSN1FTSnNLaFk", 
+          "name": "Extra Note 1: Cauchy Induction"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5bXRQdDF6NGN3WWs", 
+          "name": "Extra Note 2: Hard Problems & Public Key Cryptosystems"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5RFdFUXpsSFdVRnM", 
+          "name": "Extra Note 3: Eisenstein's Criterion"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YklsNnZlWUExODg", 
+          "name": "Extra Note 4: Cantor-Schr\u00f6der-Bernstein Theorem"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ekVWejhDeHdnSXM", 
+          "name": "Extra Note 5: Generating Functions"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NEhMQ3NSMXJwUXc", 
+          "name": "Extra Note 6: Generating Functions II"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5X3pLYjZNMzZhU1k", 
+          "name": "Extra Note 7: Moment-Generating Functions"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5aFU1ZGowVlk4Nmc", 
+          "name": "Propositional Logic: Quantifier Distribution Problem"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5MjB2MnhvT1hEOFk", 
+          "name": "Induction: Celebrity Algorithm Problem"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5VmNHeEtkVGk1d00", 
+          "name": "Continuous Probability: Continuous Conditional Expectation Problem"
+        }
+      ]
+    },
+    {
+      "header": "MATH 185",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ZmpfelprYlY0dzQ", 
+          "name": "August 25, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5WmNneEpuanpZc28", 
+          "name": "August 30, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NUEzeklYZHc4VlU", 
+          "name": "September 1, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NnROb0RIWkp1bDg", 
+          "name": "September 6, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5dEF2UFJhNEVJOEk", 
+          "name": "September 8, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5STgydmlSOFJNU2c", 
+          "name": "September 13, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YmtaelZMZVZWcTg", 
+          "name": "September 15, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5MEkzU1pIN2p2aFU", 
+          "name": "September 22, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5M3UyMnBPLWNReVU", 
+          "name": "September 27, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UHpxdW1nVWZwMFE", 
+          "name": "September 29, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5T2RLb0dMWlJHTlE", 
+          "name": "October 4, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5bE94R0hiTjJJWnc", 
+          "name": "October 6, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NzRsa3hWUnRLTmc", 
+          "name": "October 11, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5d2hrQ2NLRjZuZms", 
+          "name": "October 13, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5b0FxWnQ5Q21zTWM", 
+          "name": "October 18, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5VFh3cWNmcUlEbUk", 
+          "name": "October 20, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5b1B2cHBjb2JNaXc", 
+          "name": "October 25, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5QmM0VmZJdFJoa2M", 
+          "name": "November 1, 2016"
+        }
+      ]
+    },
+    {
+      "header": "MATH C218A/STAT C205A",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5c3VUYS1Oam5NUFk", 
+          "name": "August 25, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5OVB0aTZtMkdSTU0", 
+          "name": "August 30, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5N2RycDZsMWFCZEU", 
+          "name": "September 1, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5aU5qcXl4Qk9IUEU", 
+          "name": "September 6, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5LUNRMG53Skllc1E", 
+          "name": "September 8, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YWlTVU56X241ZzA", 
+          "name": "September 13, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UkJ0TEJKY3dJaFk", 
+          "name": "September 15, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Z0Q2Ujk3bHpoOVk", 
+          "name": "September 20, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5bVNYazZiSGNobnM", 
+          "name": "September 22, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5QTU4eEtQQjd1QkE", 
+          "name": "September 27, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NlVOQ1dqWVJXXzQ", 
+          "name": "September 29, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5eUdiRm1TYWRMTjA", 
+          "name": "October 4, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5d05scVRZR2NvSWs", 
+          "name": "October 6, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5WFlDelR5SHRya1E", 
+          "name": "October 11, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5b1dXN2IwSW1JSzQ", 
+          "name": "October 13, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UDB2aGVfQ3lTLW8", 
+          "name": "October 18, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5SGVBazJPVG5aWk0", 
+          "name": "October 20, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5c2xzQWpZdkdaTkk", 
+          "name": "October 25, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5TkhYRzFHTnU4OHc", 
+          "name": "October 27, 2016"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5SFJMOUM4cjRQTm8", 
+          "name": "November 1, 2016"
+        }
+      ]
+    }
+  ]
+}
