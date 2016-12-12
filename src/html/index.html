@@ -99,6 +99,46 @@
         </div>
     </section>
 
+    <!-- Teaching Section -->
+    <section id="teaching" class="teaching-section">
+        <div class="container">
+            <div class="col-lg-12">
+                <h1>Teaching</h1>
+                <p>Here is a list of courses that I have taught in the past.</p>
+                <br>
+            </div>
+            {% for year in teaching %}
+            <div class="row">
+                {% if year.spring is defined %}
+                <div class="col-lg-6">
+                    <ul>
+                        <i>Spring {{ year.year }}</i><br>
+                        {% for class in year.spring %}
+                        <div>
+                            <b>{{ class.number }}</b>: {{ class.name }} ({{ class.instructors }})
+                        </div>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                {% if year.fall is defined %}
+                <div class="col-lg-6">
+                    <ul>
+                        <i>Fall {{ year.year }}</i><br>
+                        {% for class in year.fall %}
+                        <div>
+                            <b>{{ class.number }}</b>: {{ class.name }} ({{ class.instructors }})
+                        </div>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+ 
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">

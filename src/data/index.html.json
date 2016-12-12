@@ -343,5 +343,39 @@
         }
       ]
     }
+  ],
+  "teaching": [
+    {
+      "fall": [
+        {
+          "instructors": "Sanjit Seshia, Jean Walrand",
+          "name": "Discrete Mathematics & Probability Theory",
+          "number": "Computer Science 70"
+        }
+      ],
+      "spring": [
+        {
+          "instructors": "Satish Rao, Jean Walrand",
+          "name": "Discrete Mathematics & Probability Theory",
+          "number": "Computer Science 70"
+        }
+      ],
+      "year": 2016
+    },
+    {
+      "spring": [
+        {
+          "instructors": "Satish Rao",
+          "name": "Discrete Mathematics & Probability Theory",
+          "number": "Computer Science 70"
+        },
+        {
+          "instructors": "Kannan Ramchandran",
+          "name": "Probability & Random Processes",
+          "number": "Electrical Engineering 126"
+        }
+      ],
+      "year": 2017
+    }
   ]
 }

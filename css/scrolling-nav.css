@@ -43,7 +43,7 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .intro-section {
@@ -58,5 +58,12 @@ of those sections to manage the look and feel of the site. */
     padding-top: 50px;
     text-align: center;
     background: #eee;
+}
+
+.teaching-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
 }
 
