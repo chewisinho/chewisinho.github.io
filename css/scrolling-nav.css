@@ -46,6 +46,13 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+.extra-section {
+    padding-bottom: 50px;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
 .intro-section {
     padding-bottom: 50px;
     padding-top: 150px;
