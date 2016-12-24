@@ -22,19 +22,23 @@
     },
     {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UnJwWjI0VlZNSzg",
-      "name": "6: Continuous Probability"
+      "name": "6: Continuous Probability I"
+    },
+    {
+      "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5anZZSGhrNTEycGM",
+      "name": "7: Continuous Probability II"
     },
     {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ZmZOVWc2dVdGQW8",
-      "name": "7: Moment-Generating Functions"
+      "name": "8: Moment-Generating Functions"
     },
     {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5QVZBa1MyQzJoQU0",
-      "name": "8: Stochastic Processes"
+      "name": "9: Stochastic Processes"
     },
     {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5RmRrcXFkbTJCNm8",
-      "name": "9: Statistical Estimators & Hypothesis Testing"
+      "name": "10: Statistical Estimators & Hypothesis Testing"
     }
   ]
 }
