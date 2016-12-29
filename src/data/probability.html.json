@@ -41,12 +41,16 @@
       "name": "10: Martingales"
     },
     {
+      "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5bkVLaWFYWWxlOVU",
+      "name": "11: Random Vectors & Linear Algebra"
+    },
+    {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5RmRrcXFkbTJCNm8",
-      "name": "11: Statistical Estimators & Hypothesis Testing"
+      "name": "12: Statistical Estimators & Hypothesis Testing"
     },
     {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NXVkZ3ZEZFhKTWs",
-      "name": "12: Randomized Algorithms"
+      "name": "13: Randomized Algorithms"
     }
   ]
 }
