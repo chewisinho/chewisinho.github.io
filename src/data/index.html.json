@@ -20,52 +20,52 @@
           "name": "Final Review Slides (Fall 2016)"
         },
         {
-          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5WDh0QXhIS1dnLUE",
-          "name": "Extra Notes (Full)"
-        },
-        {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Z3dSN1FTSnNLaFk", 
           "name": "Extra Note 1: Cauchy Induction"
         }, 
         {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Ukp0Y00xbjgtRlU",
+          "name": "Extra Note 2: Top Trading Cycles (TTC) Algorithm"
+        },
+        {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5bXRQdDF6NGN3WWs", 
-          "name": "Extra Note 2: Hard Problems & Public Key Cryptosystems"
+          "name": "Extra Note 3: Hard Problems & Public Key Cryptosystems"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5RFdFUXpsSFdVRnM", 
-          "name": "Extra Note 3: Eisenstein's Criterion"
+          "name": "Extra Note 4: Eisenstein's Criterion"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YklsNnZlWUExODg", 
-          "name": "Extra Note 4: Cantor-Schr\u00f6der-Bernstein Theorem"
+          "name": "Extra Note 5: Cantor-Schr\u00f6der-Bernstein Theorem"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ekVWejhDeHdnSXM", 
-          "name": "Extra Note 5: Generating Functions"
+          "name": "Extra Note 6: Generating Functions"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NEhMQ3NSMXJwUXc", 
-          "name": "Extra Note 6: Generating Functions II"
+          "name": "Extra Note 7: Generating Functions II"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5X3pLYjZNMzZhU1k", 
-          "name": "Extra Note 7: Moment-Generating Functions"
+          "name": "Extra Note 8: Moment-Generating Functions"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5c1BNZFhxLW5GRWs",
-          "name": "Extra Note 8: Jensen's Inequality"
+          "name": "Extra Note 9: Jensen's Inequality"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YjUyaVdJRG9UT0E",
-          "name": "Extra Note 9: Martingales"
+          "name": "Extra Note 10: Martingales"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5R0dZamVmbXlweEk",
-          "name": "Extra Note 10: PageRank"
+          "name": "Extra Note 11: PageRank"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5dkl1SGVqOEJ6bk0",
-          "name": "Extra Note 11: Beta Distribution"
+          "name": "Extra Note 12: Beta Distribution"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5aFU1ZGowVlk4Nmc", 
@@ -362,6 +362,10 @@
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5VTdkX1BERng1RlE",
           "name": "January 26, 2017"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Yk8zTmVhRkUxaGc",
+          "name": "January 31, 2017"
         }
       ]
     }
