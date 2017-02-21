@@ -40,36 +40,40 @@
           "name": "Extra Note 5: Eisenstein's Criterion"
         }, 
         {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5dHRzYWR3SXhYa0k",
+          "name": "Extra Note 6: Algebraic Coding Theory"
+        },
+        {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YklsNnZlWUExODg", 
-          "name": "Extra Note 6: Cantor-Schr\u00f6der-Bernstein Theorem"
+          "name": "Extra Note 7: Cantor-Schr\u00f6der-Bernstein Theorem"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ekVWejhDeHdnSXM", 
-          "name": "Extra Note 7: Generating Functions"
+          "name": "Extra Note 8: Generating Functions"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NEhMQ3NSMXJwUXc", 
-          "name": "Extra Note 8: Generating Functions II"
+          "name": "Extra Note 9: Generating Functions II"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5X3pLYjZNMzZhU1k", 
-          "name": "Extra Note 9: Moment-Generating Functions"
+          "name": "Extra Note 10: Moment-Generating Functions"
         }, 
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5c1BNZFhxLW5GRWs",
-          "name": "Extra Note 10: Jensen's Inequality"
+          "name": "Extra Note 11: Jensen's Inequality"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YjUyaVdJRG9UT0E",
-          "name": "Extra Note 11: Martingales"
+          "name": "Extra Note 12: Martingales"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5R0dZamVmbXlweEk",
-          "name": "Extra Note 12: PageRank"
+          "name": "Extra Note 13: PageRank"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5dkl1SGVqOEJ6bk0",
-          "name": "Extra Note 13: Beta Distribution"
+          "name": "Extra Note 14: Beta Distribution"
         },
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5aFU1ZGowVlk4Nmc", 
@@ -422,6 +426,10 @@
         {
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5RmZYN0dOS3FYanM",
           "name": "February 16, 2017"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UElnSkRJU1hyY28",
+          "name": "February 21, 2017"
         }
       ]
     }
