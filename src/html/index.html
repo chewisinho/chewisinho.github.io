@@ -84,7 +84,9 @@
                     <h1>Notes</h1>
                 </div>
                 <p>Here is a collection of notes that I have written. <a href="/probability">Also, you can find my Probability Notes here</a>.</p>
+                {% set i = 0 %}
                 {% for note in notes %}
+                {% set i = i + 1 %}
                 <div class="col-lg-4">
                   <h3>{{ note.header }}</h3>
                   <ul>
@@ -95,6 +97,10 @@
                     {% endfor %}
                   </ul>
                 </div>
+                {% if i % 3 == 0 %}
+                <div class="clearfix visible-lg-block">
+                </div>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>
