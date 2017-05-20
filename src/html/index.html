@@ -128,6 +128,18 @@
                     </ul>
                 </div>
                 {% endif %}
+                {% if year.summer is defined %}
+                <div class="col-lg-6">
+                    <ul>
+                        <i>Summer {{ year.year }}</i><br>
+                        {% for class in year.summer %}
+                        <div>
+                            <b>{{ class.number }}</b>: {{ class.name }} ({{ class.instructors }})
+                        </div>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
                 {% if year.fall is defined %}
                 <div class="col-lg-6">
                     <ul>

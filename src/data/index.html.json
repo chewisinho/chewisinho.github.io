@@ -637,6 +637,13 @@
           "number": "Electrical Engineering 126"
         }
       ],
+      "summer": [
+        {
+          "instructors": "Hongling Lu, Vrettos Moulos, Allen Tang",
+          "name": "Discrete Mathematics & Probability Theory",
+          "number": "Computer Science 70"
+        }
+      ],
       "year": 2017
     }
   ]
