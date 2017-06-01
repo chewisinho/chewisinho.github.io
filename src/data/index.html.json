@@ -606,11 +606,22 @@
       ]
     }
   ],
+  "research": {
+    "preprints": [
+      {
+        "arxiv": "https://arxiv.org/abs/1705.10925",
+        "authors": "Sinho Chewi and Venkat Anantharam",
+        "date": "May 2017",
+        "title": "A combinatorial proof of a formula of Biane and Chapuy"
+      }
+    ]
+  },
   "teaching": [
     {
       "fall": [
         {
           "instructors": "Sanjit Seshia, Jean Walrand",
+          "link": "http://fa16.eecs70.org/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         }
@@ -618,6 +629,7 @@
       "spring": [
         {
           "instructors": "Satish Rao, Jean Walrand",
+          "link": "http://inst.eecs.berkeley.edu/~cs70/sp16/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         }
@@ -628,11 +640,13 @@
       "spring": [
         {
           "instructors": "Satish Rao",
+          "link": "http://sp17.eecs70.org/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         },
         {
           "instructors": "Kannan Ramchandran",
+          "link": "http://inst.eecs.berkeley.edu/~ee126/sp17/",
           "name": "Probability & Random Processes",
           "number": "Electrical Engineering 126"
         }
