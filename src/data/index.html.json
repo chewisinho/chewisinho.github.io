@@ -611,7 +611,7 @@
       {
         "arxiv": "https://arxiv.org/abs/1705.10925",
         "authors": "Sinho Chewi and Venkat Anantharam",
-        "date": "May 2017",
+        "date": "June 2017",
         "title": "A combinatorial proof of a formula of Biane and Chapuy"
       }
     ]
@@ -654,6 +654,7 @@
       "summer": [
         {
           "instructors": "Hongling Lu, Vrettos Moulos, Allen Tang",
+          "link": "http://www.eecs70.org/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         }
