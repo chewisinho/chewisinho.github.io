@@ -699,15 +699,7 @@
   },
   "teaching": [
     {
-      "fall": [
-        {
-          "instructors": "Sanjit Seshia, Jean Walrand",
-          "link": "http://fa16.eecs70.org/",
-          "name": "Discrete Mathematics & Probability Theory",
-          "number": "Computer Science 70"
-        }
-      ],
-      "spring": [
+      "classes": [
         {
           "instructors": "Satish Rao, Jean Walrand",
           "link": "http://inst.eecs.berkeley.edu/~cs70/sp16/",
@@ -715,10 +707,21 @@
           "number": "Computer Science 70"
         }
       ],
-      "year": 2016
+      "semester": "Spring 2016"
     },
     {
-      "spring": [
+      "classes": [
+        {
+          "instructors": "Sanjit Seshia, Jean Walrand",
+          "link": "http://fa16.eecs70.org/",
+          "name": "Discrete Mathematics & Probability Theory",
+          "number": "Computer Science 70"
+        }
+      ],
+      "semester": "Fall 2016"
+    },
+    {
+      "classes": [
         {
           "instructors": "Satish Rao",
           "link": "http://sp17.eecs70.org/",
@@ -732,7 +735,10 @@
           "number": "Electrical Engineering 126"
         }
       ],
-      "summer": [
+      "semester": "Spring 2017"
+    },
+    {
+      "classes": [
         {
           "instructors": "Hongling Lu, Vrettos Moulos, Allen Tang",
           "link": "http://www.eecs70.org/",
@@ -740,7 +746,22 @@
           "number": "Computer Science 70"
         }
       ],
-      "year": 2017
+      "semester": "Summer 2017"
+    },
+    {
+      "classes": [
+        {
+          "instructors": "Kannan Ramchandran, Satish Rao",
+          "name": "Discrete Mathematics & Probability Theory",
+          "number": "Computer Science 70"
+        },
+        {
+          "instructors": "Abhay Parekh, Jean Walrand",
+          "name": "Probability & Random Processes",
+          "number": "Electrical Engineering 126"
+        }
+      ],
+      "semester": "Fall 2017"
     }
   ]
 }
