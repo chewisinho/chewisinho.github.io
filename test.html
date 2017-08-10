@@ -1,109 +1,65 @@
-<!DOCTYPE html>
-<!--==============================================================================
-	           "GitHub HTML5 Pandoc Template" v1.2 — by Tristano Ajmone           
-	==============================================================================
-	(c) Tristano Ajmone, 2017, MIT License (MIT). Project's home repository:
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="github-markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
 
-	- https://github.com/tajmone/pandoc-goodies
-
-	This template reuses source code taken from the following projects:
-
-	- GitHub Markdown CSS: © Sindre Sorhus, MIT License (MIT):
-	  https://github.com/sindresorhus/github-markdown-css
-
-	- Primer CSS: © 2016 GitHub Inc., MIT License (MIT):
-	  http://primercss.io/
-	==============================================================================-->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Review of Sets and Mathematical Notation</title>
-  <style type="text/css">@font-face{font-family:octicons-link;src:url(data:font/woff;charset=utf-8;base64,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) format('woff')}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body .octicon{display:inline-block;fill:currentColor;vertical-align:text-bottom}.markdown-body a{background-color:transparent;-webkit-text-decoration-skip:objects;color:#0366d6;text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body h1{margin:.67em 0}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body code,.markdown-body kbd,.markdown-body pre{font-family:monospace,monospace}.markdown-body input{font:inherit;margin:0;overflow:visible;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body a:hover{text-decoration:underline}.markdown-body strong{font-weight:600}.markdown-body hr{box-sizing:content-box;overflow:hidden;background:0 0;border-bottom:1px solid #dfe2e5}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body table{border-spacing:0;border-collapse:collapse;display:block;width:100%;overflow:auto}.markdown-body td,.markdown-body th{padding:0}.markdown-body blockquote{margin:0}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body .pl-0{padding-left:0!important}.markdown-body .pl-1{padding-left:4px!important}.markdown-body .pl-2{padding-left:8px!important}.markdown-body .pl-3{padding-left:16px!important}.markdown-body .pl-4{padding-left:24px!important}.markdown-body .pl-5{padding-left:32px!important}.markdown-body .pl-6{padding-left:40px!important}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:0}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e1e4e8;border:0}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd{font-size:11px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#1b1f23;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1{padding-bottom:.3em;font-size:2em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:"\00a0"}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{display:inline-block;padding:3px 5px;font:11px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:10px;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body hr{border-bottom-color:#eee}.flash{position:relative;padding:16px;color:#246;background-color:#e2eef9;border:1px solid #bac6d3;border-radius:3px}.flash p:last-child{margin-bottom:0}.flash-messages{margin-bottom:24px}.flash-warn{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.flash-error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.flash-success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.flash-plain{color:#4c4a42;background-color:#f5f5f5;border-color:#c1c1c1}</style>
-  <style type="text/css">code{white-space: pre;}</style>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      TeX: {equationNumbers: {autoNumber: "AMS"}}
-    });
-  </script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
 <article class="markdown-body">
-<header>
-<h1 class="title">Review of Sets and Mathematical Notation</h1>
-</header>
-<nav id="TOC">
-<ul>
-<li><a href="#set-theory">Set Theory</a><ul>
-<li><a href="#sets">Sets</a></li>
-<li><a href="#cardinality">Cardinality</a></li>
-<li><a href="#subsets-and-proper-subsets">Subsets and Proper Subsets</a></li>
-<li><a href="#intersections-and-unions">Intersections and Unions</a></li>
-<li><a href="#complements">Complements</a></li>
-<li><a href="#significant-sets">Significant Sets</a></li>
-</ul></li>
-<li><a href="#mathematical-notation">Mathematical Notation</a><ul>
-<li><a href="#sums-and-products">Sums and Products</a></li>
-<li><a href="#universal-and-existential-quantifiers">Universal and Existential Quantifiers</a></li>
-</ul></li>
-</ul>
-</nav>
-<h1 id="set-theory">Set Theory</h1>
-<h2 id="sets">Sets</h2>
-<p>A <strong>set</strong> is a well-defined collection of objects. These objects are called <strong>elements</strong> or <strong>members</strong> of the set, and they can be anything, including numbers, letters, people, cities, and even other sets. By convention, sets are usually denoted by capital letters and can be described or defined by listing its elements and surrounding the list by curly braces. For example, we can describe the set <span class="math inline">\(A\)</span> to be the set whose members are the first five prime numbers, or we can explicitly write: <span class="math inline">\(A = \{2, 3, 5, 7, 11\}\)</span>.</p>
-<p>If <span class="math inline">\(x\)</span> is an element of <span class="math inline">\(A\)</span>, then we write <span class="math inline">\(x \in A\)</span>. Similarly, if <span class="math inline">\(y\)</span> is not an element of <span class="math inline">\(A\)</span>, then we write <span class="math inline">\(y \not\in A\)</span>. Two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are said to be equal, written as <span class="math inline">\(A = B\)</span>, if they have the same elements. The order and repetition of elements do not matter, so <span class="math inline">\(\{\text{red}, \text{white}, \text{blue}\} = \{\text{blue}, \text{white}, \text{red}\} = \{\text{red}, \text{white}, \text{white}, \text{blue}\}\)</span>. Sometimes, more complicated sets can be defined by using a different notation. For example, the set of all rational numbers, denoted by <span class="math inline">\(\mathbb{Q}\)</span>, can be written as: <span class="math inline">\(\{a/b \mid a,b \text{ are integers}, b \not= 0\}\)</span>. In English, this is read as “the set of all fractions such that the numerator is an integer and the denominator is a non-zero integer&quot;.</p>
-<h2 id="cardinality">Cardinality</h2>
-<p>We can also talk about the size of a set, or its <strong>cardinality</strong>. If <span class="math inline">\(A = \{1,2,3,4\}\)</span>, then the cardinality of <span class="math inline">\(A\)</span>, denoted by <span class="math inline">\(|A|\)</span>, is <span class="math inline">\(4\)</span>. It is possible for the cardinality of a set to be <span class="math inline">\(0\)</span>. This set is called the <strong>empty set</strong>, denoted by the symbol <span class="math inline">\(\varnothing\)</span>. A set can also have an infinite number of elements, such as the set of all integers, prime numbers, or odd numbers.</p>
-<h2 id="subsets-and-proper-subsets">Subsets and Proper Subsets</h2>
-<p>If every element of a set <span class="math inline">\(A\)</span> is also in set <span class="math inline">\(B\)</span>, then we say that <span class="math inline">\(A\)</span> is a <strong>subset</strong> of <span class="math inline">\(B\)</span>, written <span class="math inline">\(A \subseteq B\)</span>. Equivalently we can write <span class="math inline">\(B \supseteq A\)</span>, or <span class="math inline">\(B\)</span> is a superset of <span class="math inline">\(A\)</span>. A <strong>proper subset</strong> is a set <span class="math inline">\(A\)</span> that is strictly contained in <span class="math inline">\(B\)</span>, written as <span class="math inline">\(A \subset B\)</span>, meaning that <span class="math inline">\(A\)</span> excludes at least one element of <span class="math inline">\(B\)</span>. For example, consider the set <span class="math inline">\(B = \{1,2,3,4,5\}\)</span>. Then <span class="math inline">\(\{1,2,3\}\)</span> is both a subset and a proper subset of <span class="math inline">\(B\)</span>, while <span class="math inline">\(\{1,2,3,4,5\}\)</span> is a subset but not a proper subset of <span class="math inline">\(B\)</span>. Here are a few basic properties regarding subsets:</p>
-<ul>
-<li><p>The empty set, denote by <span class="math inline">\(\{\}\)</span> or <span class="math inline">\(\varnothing\)</span>, is a proper subset of any nonempty set <span class="math inline">\(A\)</span>: <span class="math inline">\(\{\} \subset A\)</span>.</p></li>
-<li><p>The empty set is a subset of every set <span class="math inline">\(B\)</span>: <span class="math inline">\(\{\} \subseteq B\)</span>.</p></li>
-<li><p>Every set <span class="math inline">\(A\)</span> is a subset of itself: <span class="math inline">\(A \subseteq A\)</span>.</p></li>
-</ul>
-<h2 id="intersections-and-unions">Intersections and Unions</h2>
-<p>The <strong>intersection</strong> of a set <span class="math inline">\(A\)</span> with a set <span class="math inline">\(B\)</span>, written as <span class="math inline">\(A \cap B\)</span>, is a set containing all elements which are in both <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>. Two sets are said to be <strong>disjoint</strong> if <span class="math inline">\(A \cap B = \varnothing\)</span>. The <strong>union</strong> of a set <span class="math inline">\(A\)</span> with a set <span class="math inline">\(B\)</span>, written as <span class="math inline">\(A \cup B\)</span>, is a set of all elements which are in either <span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span> or both. For example, if <span class="math inline">\(A\)</span> is the set of all positive even numbers, and <span class="math inline">\(B\)</span> is the set of all positive odd numbers, then <span class="math inline">\(A \cap B = \varnothing\)</span>, and <span class="math inline">\(A \cup B = \mathbb{Z}^{+}\)</span>, or the set of all positive integers. Here are a few properties of intersections and unions:</p>
-<ul>
-<li><p><span class="math inline">\(A \cup B = B \cup A\)</span></p></li>
-<li><p><span class="math inline">\(A \cup \varnothing = A\)</span></p></li>
-<li><p><span class="math inline">\(A \cap B = B \cap A\)</span></p></li>
-<li><p><span class="math inline">\(A \cap \varnothing = \varnothing\)</span></p></li>
-</ul>
-<h2 id="complements">Complements</h2>
-<p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are two sets, then the <strong>relative complement</strong> of <span class="math inline">\(A\)</span> in <span class="math inline">\(B\)</span>, written as <span class="math inline">\(B - A\)</span> or <span class="math inline">\(B \setminus A\)</span>, is the set of elements in <span class="math inline">\(B\)</span>, but not in <span class="math inline">\(A\)</span>: <span class="math inline">\(B \setminus A = \{x \in B \mid x \not\in A\}\)</span>. For example, if <span class="math inline">\(B = \{1,2,3\}\)</span> and <span class="math inline">\(A = \{3,4,5\}\)</span>, then <span class="math inline">\(B \setminus A = \{1,2\}\)</span>. For another example, if <span class="math inline">\(\mathbb{R}\)</span> is the set of real numbers and <span class="math inline">\(\mathbb{Q}\)</span> is the set of rational numbers, then <span class="math inline">\(\mathbb{R} \setminus \mathbb{Q}\)</span> is the set of irrational numbers. Here are some important properties of complements:</p>
-<ul>
-<li><p><span class="math inline">\(A \setminus A = \varnothing\)</span></p></li>
-<li><p><span class="math inline">\(A \setminus \varnothing = A\)</span></p></li>
-<li><p><span class="math inline">\(\varnothing \setminus A = \varnothing\)</span></p></li>
-</ul>
-<h2 id="significant-sets">Significant Sets</h2>
-<p>In mathematics, some sets are referred to so commonly that they are denoted by special symbols. Some of these numerical sets include:</p>
-<ul>
-<li><p><span class="math inline">\(\mathbb{N}\)</span> denotes the set of all natural numbers: <span class="math inline">\(\{0,1,2,3,...\}\)</span>.</p></li>
-<li><p><span class="math inline">\(\mathbb{Z}\)</span> denotes the set of all integer numbers: <span class="math inline">\(\{\ldots,-2,-1,0,1,2,\ldots\}\)</span>.</p></li>
-<li><p><span class="math inline">\(\mathbb{Q}\)</span> denotes the set of all rational numbers: <span class="math inline">\(\{a/b \mid a,b \in \mathbb{Z}\)</span>, <span class="math inline">\(b \not= 0\)</span>}.</p></li>
-<li><p><span class="math inline">\(\mathbb{R}\)</span> denotes the set of all real numbers.</p></li>
-<li><p><span class="math inline">\(\mathbb{C}\)</span> denotes the set of all complex numbers.</p></li>
-</ul>
-<p>In addition, the <strong>Cartesian product</strong> (also called the <strong>cross product</strong>) of two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, written as <span class="math inline">\(A \times B\)</span>, is the set of all pairs whose first component is an element of <span class="math inline">\(A\)</span> and whose second component is an element of <span class="math inline">\(B\)</span>. In set notation, <span class="math inline">\(A \times B = \{(a,b) \mid a \in A, b \in B\}\)</span>. For example, if <span class="math inline">\(A = \{1,2,3\}\)</span> and <span class="math inline">\(B = \{u,v\}\)</span>, then <span class="math inline">\(A \times B = \{(1,u),(1,v),(2,u),(2,v),(3,u),(3,v)\}\)</span>. Given a set <span class="math inline">\(S\)</span>, another significant set is the <strong>power set</strong> of <span class="math inline">\(S\)</span>, denoted by <span class="math inline">\(\mathcal{P}(S)\)</span>, is the set of all subsets of <span class="math inline">\(S\)</span>: <span class="math inline">\(\{T \mid T \subseteq S\}\)</span>. For example, if <span class="math inline">\(S = \{1,2,3\}\)</span>, then the power set of <span class="math inline">\(S\)</span> is: <span class="math inline">\(\mathcal{P}(S) = \{\{\},\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\},\{1,2,3\}\}\)</span>. It is interesting to note that, if <span class="math inline">\(|S| = k\)</span>, then <span class="math inline">\(|\mathcal{P}(S)| = 2^k\)</span>.</p>
-<h1 id="mathematical-notation">Mathematical Notation</h1>
-<h2 id="sums-and-products">Sums and Products</h2>
-<p>There is a compact notation for writing sums or products of large numbers of items. For example, to write <span class="math inline">\(1 + 2 + \cdots + n\)</span>, without having to say dot dot dot, we write it as <span class="math inline">\(\sum_{i = 1}^{n} i\)</span>. More generally we can write the sum <span class="math inline">\(f(m) + f(m+1) + \cdots + f(n)\)</span> as <span class="math inline">\(\sum_{i = m}^{n} f(i)\)</span>. Thus, <span class="math inline">\(\sum_{i = 5}^{n} i^2 = 5^2 + 6^2 + \cdots + n^2\)</span>.<br />
-To write the product <span class="math inline">\(f(m) f(m+1) \cdots f(n)\)</span>, we use the notation <span class="math inline">\(\prod_{i = m}^{n} f(i)\)</span>. For example, <span class="math inline">\(\prod_{i = 1}^{n} i = 1 \cdot 2 \cdots n\)</span>.</p>
-<h2 id="universal-and-existential-quantifiers">Universal and Existential Quantifiers</h2>
-<p>Consider the statement: For all natural numbers <span class="math inline">\(n\)</span>, <span class="math inline">\(n^2 + n + 41\)</span> is prime. Here, <span class="math inline">\(n\)</span> is quantified to any element of the set <span class="math inline">\(\mathbb{N}\)</span> of natural numbers. In notation, we write <span class="math inline">\((\forall n\in \mathbb{N})(n^2 + n + 41 \text{ is prime})\)</span>. Here we have used the <span><em>universal quantifier</em></span> <span class="math inline">\(\forall\)</span> (“for all”). Is the statement true? If you try to substitute small values of <span class="math inline">\(n\)</span>, you will notice that <span class="math inline">\(n^2 + n + 41\)</span> is indeed prime for those values. But if you think harder, you can find larger values of <span class="math inline">\(n\)</span> for which it is not prime. Can you find one? So the statement <span class="math inline">\((\forall n\in \mathbb{N})(n^2 + n + 41 \text{ is prime})\)</span> is false.</p>
-<p>The <span><em>existential quantifer</em></span> <span class="math inline">\(\exists\)</span> (“there exists”) is used in the following statement: <span class="math inline">\(\exists x \in \mathbb{Z} \; x &lt; 2 \text{ and } x^2 = 4\)</span>. The statement says there is an integer <span class="math inline">\(x\)</span> which is less than <span class="math inline">\(2\)</span>, but its square is equal to <span class="math inline">\(4\)</span>. This is a true statement.</p>
-<p>We can also write statements using both kinds of quantifiers:</p>
-<ol style="list-style-type: decimal">
-<li><p><span class="math inline">\(\forall x \in \mathbb{Z} \; \exists y \in \mathbb{Z} \; y &gt; x\)</span></p></li>
-<li><p><span class="math inline">\(\exists y \in \mathbb{Z} \; \forall x \in \mathbb{Z} \; y &gt; x\)</span></p></li>
-</ol>
-<p>The first statement says that, given an integer, we can find a larger one. The second statement says something very different: that there is a largest integer! The first statement is true, the second is not.</p>
+	<h1>Electrical Engineering 126: Probability & Random Processes</h1>
+    <ul>
+        <li><a href="#announcements">Announcements</a></li>
+        <li><a href="#course-info">Course Information</a></li>
+        <li><a href="#homework">Homework</a></li>
+        <li><a href="#labs">Labs</a></li>
+    </ul>
+    <h2 id="announcements">Announcements</h2>
+    <ul>
+        <li>Welcome to EE 126!</li>
+    </ul>
+    <h2 id="course-info">Course Information</h2>
+    <h3>Staff</h3>
+    <p><b>Instructors</b></p>
+    <ul>
+        <li>Abhay Parekh. OH: TBD.</li>
+        <li>Jean Walrand. OH: TBD.</li>
+    </ul>
+    <p><b>TAs</b></p>
+    <ul>
+        <li>Sinho Chewi. OH: TBD.</li>
+        <li>Avishek Ghosh. OH: TBD.</li>
+    </ul>
+    <p>We will be using the following textbooks:</p>
+    <ul>
+        <li><em>Introduction to Probability</em> by Bertsekas and Tsitsiklis [2nd Edition] (B-T)</li>
+        <li><em>Probability in Electrical Engineering & Computer Science</em> by Walrand (W)</li>
+    </ul>
+    <p>For more detailed information, please look at the full syllabus here: [to be uploaded].</p>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Topics</th>
+            <th>Reading</th>
+            <th>Assignments</th>
+        </tr>
+        <tr>
+            <td>08/24</td>
+            <td>Probability Spaces, Conditional Probability, Discrete Random Variables</td>
+            <td>B-T Ch. 1</td>
+            <td></td>
+    </table>
+    <h2 id="homework">Homework</h2>
+    <p>Homework will be posted here. We will have homework parties on TBA.</p>
+    <h2 id="labs">Labs</h2>
+    <p>Labs will be posted here.</p>
 </article>
-</body>
-</html>
