@@ -773,7 +773,7 @@
       "classes": [
         {
           "instructors": "Hongling Lu, Vrettos Moulos, Allen Tang",
-          "link": "http://www.eecs70.org/",
+          "link": "http://www.su17.eecs70.org/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         }
@@ -784,6 +784,7 @@
       "classes": [
         {
           "instructors": "Kannan Ramchandran, Satish Rao",
+          "link": "http://www.eecs70.org/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         },
