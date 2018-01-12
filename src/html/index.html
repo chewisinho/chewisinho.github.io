@@ -150,13 +150,15 @@
                         <i>{{ semester.semester }}</i><br>
                         {% for class in semester.classes %}
                         <div>
+                            <b>
                             {% if class.link is defined %}
                             <a href="{{ class.link }}">
-                            {% endif %}
-                            <b>{{ class.number }}</b>
-                            {% if class.link is defined %}
+                            {%- endif -%}
+                            {{- class.number -}}
+                            {%- if class.link is defined -%}
                             </a>
                             {% endif %}
+                            </b>
                             – {{ class.name }} ({{ class.instructors }})
                         </div>
                         {% endfor %}

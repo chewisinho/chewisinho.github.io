@@ -1127,7 +1127,7 @@
       "classes": [
         {
           "instructors": "Kannan Ramchandran, Satish Rao",
-          "link": "http://www.eecs70.org/",
+          "link": "http://www.fa17.eecs70.org/",
           "name": "Discrete Mathematics & Probability Theory",
           "number": "Computer Science 70"
         },
@@ -1139,6 +1139,16 @@
         }
       ],
       "semester": "Fall 2017"
+    },
+    {
+      "classes": [
+        {
+          "instructors": "Kannan Ramchandran",
+          "name": "Probability & Random Processes",
+          "number": "Electrical Engineering 126"
+        }
+      ],
+      "semester": "Spring 2018"
     }
   ]
 }
