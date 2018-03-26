@@ -1278,11 +1278,20 @@
     }
   ],
   "research": {
-    "preprints": [
+    "publications": [
       {
-        "arxiv": "https://arxiv.org/abs/1705.10925",
         "authors": "Sinho Chewi and Venkat Anantharam",
-        "date": "June 2017",
+        "date": "March 2018",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/1705.10925",
+            "name": "arXiv"
+          },
+          {
+            "link": "http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p58",
+            "name": "E-JC"
+          }
+        ],
         "title": "A combinatorial proof of a formula of Biane and Chapuy"
       }
     ]

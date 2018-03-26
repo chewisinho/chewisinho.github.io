@@ -120,10 +120,13 @@
             </div>
             <p>I am currently working with <a href="https://people.eecs.berkeley.edu/~ananth/">Professor Anantharam</a> in the EECS Department.</p>
             <br>
-            <h4>Preprints</h4>
-            {% for preprint in research.preprints %}
+            <h4>Publications</h4>
+            {% for publication in research.publications %}
             <li>
-                <i>{{ preprint.title }}</i>. {{ preprint.authors }}. {{ preprint.date }}. <a href="{{ preprint.arxiv }}">[arXiv]</a>
+                <i>{{ publication.title }}</i>. {{ publication.authors }}. {{ publication.date }}.
+                {% for link in publication.links %}
+                <a href="{{ link.link }}">[{{ link.name }}]</a>
+                {% endfor %}
             </li>
             {% endfor %}
         </div>
