@@ -77,6 +77,7 @@
                 <div class="col-lg-12">
                     <h1>Sinho Chewi's Website</h1>
                     <p>Copied from the Bootstrap template.</p>
+                    <p>Starting in the fall, I will be an Applied Mathematics PhD student at the Massachusetts Institute of Technology (MIT). I received my B.S. in Engineering Mathematics and Statistics from University of California, Berkeley in 2018.</li>
                 </div>
             </div>
         </div>
@@ -89,12 +90,13 @@
                 <div class="col-lg-12">
                     <h1>Notes</h1>
                 </div>
-                <p>Here is a collection of notes that I have written. <a href="/probability">Also, you can find my Probability Notes here</a>. If you would like the source code for my notes, <a href="/latex">click here</a>.</p>
+                <p>Here is a collection of notes that I have written. <a href="/probability">You can find my Probability Notes here</a>. Also, I contributed to the course notes for EECS 126 in Spring 2018, which can be found on the <a href="https://inst.eecs.berkeley.edu/~ee126/sp18/">course website</a>. If you would like the source code for my notes, <a href="/latex">click here</a>.</p>
                 {% set i = 0 %}
                 {% for note in notes %}
                 {% set i = i + 1 %}
                 <div class="col-lg-4">
                   <h3>{{ note.header }}</h3>
+                  <h5>{{ note.title }}</h5>
                   <ul>
                     {% for link in note.links %}
                     <li>
@@ -138,6 +140,39 @@
             <div class="col-lg-12">
                 <h1>Teaching</h1>
                 <p>Here is a list of courses that I have taught in the past.</p>
+                <br>
+            </div>
+            {% set counter = 0 %}
+            <div class="row">
+            {% for semester in teaching_instructor %}
+            {% if counter % 2 == 0 and counter > 0 %}
+            </div>
+            <div class="row">
+            {% endif %}
+            {% set counter = counter + 1 %}
+                <div class="col-lg-6">
+                    <ul>
+                        <i>{{ semester.semester }}</i><br>
+                        {% for class in semester.classes %}
+                        <div>
+                            <b>
+                            {% if class.link is defined %}
+                            <a href="{{ class.link }}">
+                            {%- endif -%}
+                            {{- class.number -}}
+                            {%- if class.link is defined -%}
+                            </a>
+                            {% endif %}
+                            </b>
+                            – {{ class.name }}
+                        </div>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="col-lg-12">
+                <p>I have also been a TA for these courses.</p>
                 <br>
             </div>
             {% set counter = 0 %}

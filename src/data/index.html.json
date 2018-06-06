@@ -95,7 +95,8 @@
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5VmNHeEtkVGk1d00", 
           "name": "Continuous Probability: Continuous Conditional Expectation Problem"
         }
-      ]
+      ],
+      "title": "Discrete Mathematics & Probability Theory"
     },
     {
       "header": "COMPSCI 271",
@@ -204,7 +205,8 @@
           "link": "https://drive.google.com/open?id=1ePvuOaq8QsR_vo92hZktrA1Oqn9VAM2n",
           "name": "April 26, 2018"
         }
-      ]
+      ],
+      "title": "Randomness & Computation"
     },
     {
       "header": "EL ENG 223",
@@ -297,7 +299,8 @@
           "link": "https://drive.google.com/open?id=1z0lgc109rYNUxEBz6KeQ_-p1XAQY2B9c",
           "name": "April 23, 2018"
         }
-      ]
+      ],
+      "title": "Stochastic Systems: Estimation & Control"
     },
     {
       "header": "EL ENG 226A",
@@ -410,7 +413,8 @@
           "link": "https://drive.google.com/open?id=1CPNbF2pt6iA_teH_VX6g0Fv3SxOeWCYZ",
           "name": "November 28, 2017"
         }
-      ]
+      ],
+      "title": "Random Processes in Systems"
     },
     {
       "header": "MATH 115",
@@ -523,7 +527,8 @@
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5d01ydHljSFVrVmc",
           "name": "August 8, 2017"
         }
-      ]
+      ],
+      "title": "Introduction to Number Theory"
     },
     {
       "header": "MATH 135",
@@ -684,7 +689,8 @@
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5LXB4eDdvZkVVcms",
           "name": "April 28, 2017"
         }
-      ]
+      ],
+      "title": "Introduction to the Theory of Sets"
     },
     {
       "header": "MATH 141",
@@ -793,7 +799,8 @@
           "link": "https://drive.google.com/open?id=12UCfNflasDyeVtQlDi-1OlLsomvwpwnM",
           "name": "November 30, 2017"
         }
-      ]
+      ],
+      "title": "Elementary Differential Topology"
     },
     {
       "header": "MATH 185",
@@ -906,7 +913,8 @@
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5S2ozVURwa1NfMVE",
           "name": "December 1, 2016"
         }
-      ]
+      ],
+      "title": "Introduction to Complex Analysis"
     },
     {
       "header": "MATH C218A/STAT C205A",
@@ -1027,7 +1035,8 @@
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5N3JYRlI0UkQ1UXc",
           "name": "December 1, 2016"
         }
-      ]
+      ],
+      "title": "Probability Theory"
     },
     {
       "header": "MATH C218B/STAT C205B",
@@ -1140,7 +1149,8 @@
           "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5eGRuT1ljbGtZanc",
           "name": "April 27, 2017"
         }
-      ]
+      ],
+      "title": "Probability Theory"
     },
     {
       "header": "STAT 210A",
@@ -1261,7 +1271,8 @@
           "link": "https://drive.google.com/open?id=1L0P06DieNA3k6ZmZJz-0jX-ygcizzrBI",
           "name": "November 30, 2017"
         }
-      ]
+      ],
+      "title": "Theoretical Statistics"
     },
     {
       "header": "STAT 210B",
@@ -1374,7 +1385,8 @@
           "link": "https://drive.google.com/open?id=1fYih_yPcBvXNtMIYg3LrZ2-csm_MZL6i",
           "name": "April 26, 2018"
         }
-      ]
+      ],
+      "title": "Theoretical Statistics"
     }
   ],
   "research": {
@@ -1474,6 +1486,18 @@
         }
       ],
       "semester": "Spring 2018"
+    }
+  ],
+  "teaching_instructor": [
+    {
+      "classes": [
+        {
+          "link": "http://www.eecs70.org/",
+          "name": "Discrete Mathematics & Probability Theory [co-taught with Vrettos Moulos]",
+          "number": "Computer Science 70"
+        }
+      ],
+      "semester": "Summer 2018"
     }
   ]
 }
