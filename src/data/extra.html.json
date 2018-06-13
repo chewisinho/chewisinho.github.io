@@ -1,10 +1,4 @@
 {
-  "esl": [
-    {
-      "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5X2t6Mmt4cWc2TEU",
-      "name": "2: Overview of Supervised Learning"
-    }
-  ],
   "notes": [
     {
       "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5QWVjU1RPMWVlSk0",
@@ -79,8 +73,16 @@
       "name": "[10/5/2017] Wald's Identity"
     },
     {
+      "link": "https://drive.google.com/open?id=1jfbu6-CSUDgd05bV2ZXIp1zwbr3XvEkw",
+      "name": "[12/16/2017] Cauchy in Probability Implies Convergence in Probability"
+    },
+    {
       "link": "https://drive.google.com/open?id=1Mz9S3zWwZ1MB7qTxrc62xOL4NSUEQ6C-",
       "name": "[5/9/2018] EL ENG 223 Project"
+    },
+    {
+      "link": "https://drive.google.com/open?id=1695HRjJxiyHSo9Vj20mM8ed21UjO7-9h",
+      "name": "[6/12/2018] A Problem with Matrices"
     }
   ]
 }
