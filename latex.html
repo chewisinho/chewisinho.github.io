@@ -54,38 +54,22 @@
         <div class="row">
           <div class="col-lg-12">
             <h1>LaTeX</h1>
-            <p>I have been receiving emails asking for the LaTeX source code for my notes. Unfortunately, I generally do not make the source code public (the exception is for the professors who taught the courses for my scribe notes). I have been iteratively
-              modifying my LaTeX workflow to suit my needs for a while, and the result is a complicated mess that probably won't compile for you anyway. :)</p>
-            <p>For the future note-taker, a word of advice: I recommend that you start simple. The content comes first, and then you can improve your formatting over time. If you have an idea for how you can make your notes look better, then Google it and
-              you can probably figure out how to make it happen.</p>
+            <p>I have been receiving emails asking for the LaTeX source code for my notes. Unfortunately, I generally do not make the source code public (the exception is for the professors who taught the courses for my scribe notes). I have been iteratively modifying my LaTeX workflow to suit my needs for a while, and the result is a complicated mess that probably won't compile for you anyway. :)</p>
+            <p>For the future note-taker, a word of advice: I recommend that you start simple. The content comes first, and then you can improve your formatting over time. If you have an idea for how you can make your notes look better, then Google it and you can probably figure out how to make it happen.</p>
             <p>If you have any specific questions, however, feel free to send me an email.</p>
             <h2>FAQ</h2>
             <ul>
-              <li>
-                <b>What is the overall structure of your notes? How do you compile notes for an individual lecture?</b>
-              </li>
-              <p>Each lecture is a separate .tex file, e.g., 10-29.tex. Then, I have a main.tex skeleton file which uses the "\include{10-29}" command to access the individual lecture files. To compile all of the lectures together, compile the main.tex file.
-                To compile an individual lecture, use "pdflatex '\includeonly{10-29} \input{main}'".</p>
-              <li>
-                <b>How do you make the left indentation consistent?</b>
-              </li>
+              <li><b>What is the overall structure of your notes? How do you compile notes for an individual lecture?</b></li>
+              <p>Each lecture is a separate .tex file, e.g., 10-29.tex. Then, I have a main.tex skeleton file which uses the "\include{10-29}" command to access the individual lecture files. To compile all of the lectures together, compile the main.tex file. To compile an individual lecture, use "pdflatex '\includeonly{10-29} \input{main}'".</p>
+              <li><b>How do you make the left indentation consistent?</b></li>
               <p>I eliminated the indentation altogether using "\setlength{\parindent}{0cm}". You can also play around with the "parskip" option. You should be wary of changing the defaults though; they are defaults for a reason.</p>
-              <li>
-                <b>How do you make boxes for your theorems?</b>
-              </li>
+              <li><b>How do you make boxes for your theorems?</b></li>
               <p>I use the mdframed package.</p>
-              <li>
-                <b>How do you decide which statements go inside boxes?</b>
-              </li>
-              <p>The boxes are for definitions, examples, propositions, lemmas, theorems, corollaries, and proofs. I do not have a sophisticated system to decide what goes inside a box (you give me too much credit). Typically, I put the statement in a box
-                if the professor writes "Theorem" (or "Definition", etc.) on the board.</p>
-              <li>
-                <b>How did you pick your color scheme?</b>
-              </li>
+              <li><b>How do you decide which statements go inside boxes?</b></li>
+              <p>The boxes are for definitions, examples, propositions, lemmas, theorems, corollaries, and proofs. I do not have a sophisticated system to decide what goes inside a box (you give me too much credit). Typically, I put the statement in a box if the professor writes "Theorem" (or "Definition", etc.) on the board.</p>
+              <li><b>How did you pick your color scheme?</b></li>
               <p>I looked up color schemes online. I'm no good at picking colors myself! After a few iterations of color schemes, I realized that it is crucial for the colors to be extremely light.</p>
-              <li>
-                <b>What text editor do you use?</b>
-              </li>
+              <li><b>What text editor do you use?</b></li>
               <p>I use neovim with the vimtex plugin. Of course, vim has a reputation for being difficult to learn, but it is quite fast once you learn how to use it.</p>
             </ul>
           </div>
