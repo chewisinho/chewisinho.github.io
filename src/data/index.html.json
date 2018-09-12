@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "header": "COMPSCI 229R",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=1QjRVk6urYhhVEP5hWvKn3X65sclB5Km_",
+          "name": "September 7, 2018"
+        }
+      ],
+      "title": "Topics in Theoretical Computer Science: Interactions between Physics and Computation"
+    }
+  ],
+  "notes_unpublished": [
+    {
       "header": "18.177",
       "links": [
         {
@@ -10,19 +22,13 @@
         {
           "link": "https://drive.google.com/open?id=1nYTTyQm5jW9eR1-S_vNsJyKCHm_fyNqe",
           "name": "September 10, 2018"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1JZM6K0SyX--X6vBGl9uJLEMtldXLoZiU",
+          "name": "September 12, 2018"
         }
       ],
       "title": "Topics in Stochastic Processes"
-    },
-    {
-      "header": "COMPSCI 229R",
-      "links": [
-        {
-          "link": "https://drive.google.com/open?id=1QjRVk6urYhhVEP5hWvKn3X65sclB5Km_",
-          "name": "September 7, 2018"
-        }
-      ],
-      "title": "Topics in Theoretical Computer Science: Interactions between Physics and Computation"
     }
   ],
   "research": {
