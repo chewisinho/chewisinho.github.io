@@ -33,12 +33,30 @@
         }
       ],
       "title": "Topics in Theoretical Computer Science: Interactions between Physics and Computation"
+    },
+    {
+      "header": "Other",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=10xreIn13pS_SlZfEUb2GQVE2jhk-1piy",
+          "name": "18.177 Presentation: Non-Linear Large Deviations via Gaussian Gradient Width"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1mxO7OT_haZ9uO68PaXj1TVcTkHp_hScz",
+          "name": "Metric Geometry for Statistics"
+        }
+      ],
+      "title": ""
     }
   ],
   "notes_unpublished": [
     {
       "header": "18.177",
       "links": [
+        {
+          "link": "https://drive.google.com/open?id=1kkDg_v41Pe3E6N82DujraEhQ9Mtl2ICS",
+          "name": "Full Notes"
+        },
         {
           "link": "https://drive.google.com/open?id=1jo0wi2jtvJMfnNnxS19W3b__6S0RgDaz",
           "name": "September 5, 2018"
@@ -138,6 +156,14 @@
         {
           "link": "https://drive.google.com/open?id=1JDp8a4p78ATuT0dKXMumnf_1oEdddVKF",
           "name": "December 5, 2018"
+        },
+        {
+          "link": "https://drive.google.com/open?id=15MoTT6H1jf5c5Bcf58JvB3CAq6dGer8c",
+          "name": "December 10, 2018"
+        },
+        {
+          "link": "https://drive.google.com/open?id=13JqbHKuxQMILfD9GxKTJ2VexRKy5TY9p",
+          "name": "December 12, 2018"
         }
       ],
       "title": "Topics in Stochastic Processes"
