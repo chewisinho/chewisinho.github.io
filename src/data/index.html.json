@@ -4,6 +4,10 @@
       "header": "COMPSCI 229R",
       "links": [
         {
+          "link": "https://drive.google.com/open?id=1NjWUfhNyI2dLD6lBjwIB2a18C4B6YFf_",
+          "name": "Full Notes"
+        },
+        {
           "link": "https://drive.google.com/open?id=1QjRVk6urYhhVEP5hWvKn3X65sclB5Km_",
           "name": "September 7, 2018"
         },
@@ -30,6 +34,10 @@
         {
           "link": "https://drive.google.com/open?id=1O-nq-mCgnHRZrQJWRl6Qk31FkicWDSH1",
           "name": "October 26, 2018"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1qx70TeV2khqKKYYUhCrzp59B5J_7a34M",
+          "name": "November 9, 2018 (Official Scribe Notes)"
         }
       ],
       "title": "Topics in Theoretical Computer Science: Interactions between Physics and Computation"
