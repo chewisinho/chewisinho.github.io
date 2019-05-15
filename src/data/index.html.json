@@ -102,6 +102,10 @@
       "header": "18.176",
       "links": [
         {
+          "link": "https://drive.google.com/open?id=1mcsB4oLMRNKXcloeVpl7jVlvB3xLk_i3",
+          "name": "Full Notes"
+        },
+        {
           "link": "https://drive.google.com/open?id=1GxPSTQCAAjcaZodchqqKxQg5XYHzljI1",
           "name": "February 6, 2019"
         },
@@ -252,6 +256,10 @@
         {
           "link": "https://drive.google.com/open?id=1PrqIFwId_4l2AKJfbOXTkT3tIn2U-VWX",
           "name": "May 13, 2019"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1L4b-on9O0wlOubTpKOYyGrkZ9B86K8-2",
+          "name": "May 15, 2019"
         }
       ],
       "title": "Stochastic Calculus"
