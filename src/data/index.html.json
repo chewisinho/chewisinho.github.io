@@ -532,6 +532,17 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Forest Yang, Avishek Ghosh, Abhay Parekh, and Kannan Ramchandran",
+        "date": "September 2019",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/1806.06766",
+            "name": "arXiv"
+          }
+        ],
+        "title": "Matching observations to distributions: efficient estimation via sparsified Hungarian algorithm"
+      },
+      {
         "authors": "Sinho Chewi and Venkat Anantharam",
         "date": "March 2018",
         "links": [

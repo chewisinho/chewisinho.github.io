@@ -121,14 +121,16 @@
                 <h1>Research</h1>
             </div>
             <h4>Publications</h4>
+            <ul>
             {% for publication in research.publications %}
-            <li>
-                <i>{{ publication.title }}</i>. {{ publication.authors }}. {{ publication.date }}.
-                {% for link in publication.links %}
-                <a href="{{ link.link }}">[{{ link.name }}]</a>
+                <li>
+                    <i>{{ publication.title }}</i>. {{ publication.authors }}. {{ publication.date }}.
+                    {% for link in publication.links %}
+                    <a href="{{ link.link }}">[{{ link.name }}]</a>
+                    {% endfor %}
+                </li>
                 {% endfor %}
-            </li>
-            {% endfor %}
+            </ul>
         </div>
     </section>
 
