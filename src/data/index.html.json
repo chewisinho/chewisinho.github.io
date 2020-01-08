@@ -664,6 +664,17 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
+        "date": "January 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2001.01700",
+            "name": "arXiv"
+          }
+        ],
+        "title": "Gradient descent algorithms for Bures-Wasserstein barycenters"
+      },
+      {
         "authors": "Sinho Chewi, Forest Yang, Avishek Ghosh, Abhay Parekh, and Kannan Ramchandran",
         "date": "September 2019",
         "links": [
