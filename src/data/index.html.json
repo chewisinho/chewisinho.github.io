@@ -213,6 +213,16 @@
       "title": "Introduction to Partial Differential Equations"
     },
     {
+      "header": "18.158",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=1x4SfATMoJfijL51-_XOZD37fqBS2A1mX",
+          "name": "February 4, 2020"
+        }
+      ],
+      "title": "Topics in Differential Equations"
+    },
+    {
       "header": "18.176",
       "links": [
         {
@@ -471,6 +481,16 @@
         }
       ],
       "title": "Eigenvalues of Random Matrices"
+    },
+    {
+      "header": "18.966",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=1asK1MeLz34TJzy29RDTMBaRlTQ5WDzQn",
+          "name": "February 4, 2020"
+        }
+      ],
+      "title": "Geometry of Manifolds II"
     },
     {
       "header": "COMPSCI 229R",
