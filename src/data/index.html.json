@@ -230,6 +230,10 @@
         {
           "link": "https://drive.google.com/open?id=1nchTK4tJPKeqkQNbJHZ1p-Xqf56KqtrY",
           "name": "February 13, 2020"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1D1SlhN3KizvEtc9cgd2IwNNQqxrMZ3zg",
+          "name": "February 25, 2020"
         }
       ],
       "title": "Topics in Differential Equations"
@@ -512,6 +516,10 @@
         {
           "link": "https://drive.google.com/open?id=1d-4KJMj5dlKW5Vx3PEzF7RzvFz4pi8bP",
           "name": "February 13, 2020"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1xNgPuAh9k-irZ7x0hnqjJe8ZvEbik3a3",
+          "name": "February 25, 2020"
         }
       ],
       "title": "Geometry of Manifolds II"
@@ -714,6 +722,10 @@
           {
             "link": "https://arxiv.org/abs/2001.01700",
             "name": "arXiv"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
+            "name": "Lightning Talk Slides"
           }
         ],
         "title": "Gradient descent algorithms for Bures-Wasserstein barycenters"
