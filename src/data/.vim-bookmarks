@@ -1,3 +1,3 @@
 let l:bm_file_version = 1
-let l:bm_sessions = {'default': {'/Users/schewi/Documents/chewisinho.github.io/src/data/index.html.json': [{'sign_idx': 9501, 'line_nr': 238, 'content': '      ],'},{'sign_idx': 9500, 'line_nr': 524, 'content': '      ],'},],}}
+let l:bm_sessions = {'default': {'/Users/schewi/Documents/chewisinho.github.io/src/data/index.html.json': [{'sign_idx': 9501, 'line_nr': 242, 'content': '      ],'},{'sign_idx': 9500, 'line_nr': 532, 'content': '      ],'},],}}
 let l:bm_current_session = 'default'
