@@ -864,6 +864,17 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
+        "date": "May 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2005.09669",
+            "name": "arXiv"
+          }
+        ],
+        "title": "Exponential ergodicity of mirror-Langevin diffusions"
+      },
+      {
         "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
         "date": "January 2020",
         "links": [
