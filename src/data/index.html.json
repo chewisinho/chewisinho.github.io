@@ -864,8 +864,19 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet",
+        "date": "June 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2006.02509",
+            "name": "arXiv"
+          }
+        ],
+        "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence"
+      },
+      {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
-        "date": "May 2020",
+        "date": "June 2020",
         "links": [
           {
             "link": "https://arxiv.org/abs/2005.09669",
@@ -881,6 +892,10 @@
           {
             "link": "https://arxiv.org/abs/2001.01700",
             "name": "arXiv"
+          },
+          {
+            "link": "http://learningtheory.org/colt2020/",
+            "name": "COLT 2020 (to appear)"
           },
           {
             "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
@@ -915,6 +930,10 @@
           {
             "link": "http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p58",
             "name": "E-JC"
+          },
+          {
+            "link": "/chewianantharam2017bianechapuy.bib",
+            "name": ".bib"
           }
         ],
         "title": "A combinatorial proof of a formula of Biane and Chapuy"
