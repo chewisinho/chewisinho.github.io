@@ -870,6 +870,10 @@
           {
             "link": "https://arxiv.org/abs/2006.02509",
             "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewietal2020svgd.bib",
+            "name": ".bib"
           }
         ],
         "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence"
@@ -881,6 +885,10 @@
           {
             "link": "https://arxiv.org/abs/2005.09669",
             "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewietal2020mirrorlangevin.bib",
+            "name": ".bib"
           }
         ],
         "title": "Exponential ergodicity of mirror-Langevin diffusions"
@@ -900,6 +908,10 @@
           {
             "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
             "name": "Lightning Talk Slides"
+          },
+          {
+            "link": "/bibs/chewietal2020buresgd.bib",
+            "name": ".bib"
           }
         ],
         "title": "Gradient descent algorithms for Bures-Wasserstein barycenters"
@@ -915,6 +927,10 @@
           {
             "link": "https://ieeexplore.ieee.org/document/8919825",
             "name": "Allerton 2019"
+          },
+          {
+            "link": "/bibs/chewietal2019hungarian.bib",
+            "name": ".bib"
           }
         ],
         "title": "Matching observations to distributions: efficient estimation via sparsified Hungarian algorithm"
