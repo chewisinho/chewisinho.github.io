@@ -864,6 +864,29 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
+        "date": "June 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2001.01700",
+            "name": "arXiv"
+          },
+          {
+            "link": "http://learningtheory.org/colt2020/",
+            "name": "COLT 2020 (to appear)"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
+            "name": "Lightning Talk Slides"
+          },
+          {
+            "link": "/bibs/chewietal2020buresgd.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Gradient descent algorithms for Bures-Wasserstein barycenters"
+      },
+      {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet",
         "date": "June 2020",
         "links": [
@@ -892,29 +915,6 @@
           }
         ],
         "title": "Exponential ergodicity of mirror-Langevin diffusions"
-      },
-      {
-        "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
-        "date": "January 2020",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2001.01700",
-            "name": "arXiv"
-          },
-          {
-            "link": "http://learningtheory.org/colt2020/",
-            "name": "COLT 2020 (to appear)"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
-            "name": "Lightning Talk Slides"
-          },
-          {
-            "link": "/bibs/chewietal2020buresgd.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Gradient descent algorithms for Bures-Wasserstein barycenters"
       },
       {
         "authors": "Sinho Chewi, Forest Yang, Avishek Ghosh, Abhay Parekh, and Kannan Ramchandran",
