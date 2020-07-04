@@ -872,8 +872,12 @@
             "name": "arXiv"
           },
           {
-            "link": "http://learningtheory.org/colt2020/",
+            "link": "https://www.colt2020.org/virtual/papers/paper_28.html",
             "name": "COLT 2020 (to appear)"
+          },
+          {
+            "link": "https://www.colt2020.org/virtual/papers/paper_28.html",
+            "name": "COLT 2020 Videos"
           },
           {
             "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
