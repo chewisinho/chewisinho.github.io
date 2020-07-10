@@ -877,11 +877,15 @@
           },
           {
             "link": "https://www.colt2020.org/virtual/papers/paper_28.html",
-            "name": "COLT 2020 Videos"
+            "name": "COLT 2020 (Video)"
+          },
+          {
+            "link": "https://columbia.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b4c69d8-97d0-41da-a998-abf201254651",
+            "name": "Optimal Transport: Regularization and Applications 2020 (Video)"
           },
           {
             "link": "https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM",
-            "name": "Lightning Talk Slides"
+            "name": "Slides"
           },
           {
             "link": "/bibs/chewietal2020buresgd.bib",
