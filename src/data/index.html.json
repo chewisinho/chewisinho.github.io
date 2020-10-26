@@ -864,6 +864,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, Austin Stromme",
+        "date": "October 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2010.12101",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewietal2020splines.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Fast and smooth interpolation on Wasserstein space"
+      },
+      {
         "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
         "date": "July 2020",
         "links": [
