@@ -864,7 +864,22 @@
   "research": {
     "publications": [
       {
-        "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, Austin Stromme",
+        "authors": "Kwangjun Ahn and Sinho Chewi",
+        "date": "November 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2010.16212",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/ahnchewi2020mirrorlangevin.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Efficient constrained sampling via the mirror-Langevin algorithm"
+      },
+      {
+        "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme",
         "date": "October 2020",
         "links": [
           {
