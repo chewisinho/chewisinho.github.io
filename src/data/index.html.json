@@ -864,6 +864,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet",
+        "date": "December 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2012.12810",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewietal2020mala.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm"
+      },
+      {
         "authors": "Kwangjun Ahn and Sinho Chewi",
         "date": "November 2020",
         "links": [
