@@ -879,6 +879,52 @@
         "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm"
       },
       {
+        "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
+        "date": "June 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2005.09669",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.neurips.cc/paper/2020/hash/e3251075554389fe91d17a794861d47b-Abstract.html",
+            "name": "NeurIPS 2020"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1U0U49V1sdNLYoUlJmSh0X8ELYK2afnfH/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/chewietal2020mirrorlangevin.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Exponential ergodicity of mirror-Langevin diffusions"
+      },
+      {
+        "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet",
+        "date": "December 2020",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2006.02509",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.neurips.cc/paper/2020/hash/16f8e136ee5693823268874e58795216-Abstract.html",
+            "name": "NeurIPS 2020"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1X74ZwK2tU4Mcm2rRUv8JbitsZKge-VoM/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/chewietal2020svgd.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence"
+      },
+      {
         "authors": "Kwangjun Ahn and Sinho Chewi",
         "date": "November 2020",
         "links": [
@@ -942,36 +988,6 @@
           }
         ],
         "title": "Gradient descent algorithms for Bures-Wasserstein barycenters"
-      },
-      {
-        "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet",
-        "date": "June 2020",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2006.02509",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewietal2020svgd.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence"
-      },
-      {
-        "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
-        "date": "June 2020",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2005.09669",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewietal2020mirrorlangevin.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Exponential ergodicity of mirror-Langevin diffusions"
       },
       {
         "authors": "Sinho Chewi, Forest Yang, Avishek Ghosh, Abhay Parekh, and Kannan Ramchandran",
