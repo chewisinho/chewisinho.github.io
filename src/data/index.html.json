@@ -864,6 +864,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed",
+        "date": "February 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2102.11476",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chenchewinilesweed2021dimfreelsi.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Dimension-free log-Sobolev inequalities for mixture distributions"
+      },
+      {
         "authors": "Sinho Chewi, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet",
         "date": "December 2020",
         "links": [
