@@ -864,6 +864,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme",
+        "date": "March 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2010.12101",
+            "name": "arXiv"
+          },
+          {
+            "link": "http://proceedings.mlr.press/v130/chewi21a.html",
+            "name": "AISTATS 2021"
+          },
+          {
+            "link": "/bibs/chewietal2021splines.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Fast and smooth interpolation on Wasserstein space"
+      },
+      {
         "authors": "Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed",
         "date": "February 2021",
         "links": [
@@ -957,21 +976,6 @@
           }
         ],
         "title": "Efficient constrained sampling via the mirror-Langevin algorithm"
-      },
-      {
-        "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme",
-        "date": "October 2020",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2010.12101",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewietal2020splines.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Fast and smooth interpolation on Wasserstein space"
       },
       {
         "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
