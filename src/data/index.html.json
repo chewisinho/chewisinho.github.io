@@ -864,6 +864,36 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
+        "date": "May 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2105.14166",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewietal2021rejection.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Rejection sampling from shape-constrained distributions in sublinear time"
+      },
+      {
+        "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
+        "date": "May 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2105.14163",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewietal2021logconcave1d.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "The query complexity of sampling from strongly log-concave distributions in one dimension"
+      },
+      {
         "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme",
         "date": "March 2021",
         "links": [
@@ -918,7 +948,7 @@
       },
       {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
-        "date": "June 2020",
+        "date": "December 2020",
         "links": [
           {
             "link": "https://arxiv.org/abs/2005.09669",
