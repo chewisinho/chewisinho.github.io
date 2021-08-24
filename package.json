@@ -4,7 +4,7 @@
     "marked": "^0.7.0",
     "path": "^0.12.7",
     "set-value": "^3.0.2",
-    "tar": "^4.4.13",
+    "tar": "^4.4.15",
     "twig-markdown": "^0.2.1"
   },
   "description": "Personal website for Sinho Chewi.",
