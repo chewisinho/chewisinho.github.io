@@ -864,6 +864,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet",
+        "date": "August 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2012.12810",
+            "name": "arXiv"
+          },
+          {
+            "link": "http://www.learningtheory.org/colt2021/virtual/poster_7.html",
+            "name": "COLT 2021"
+          },
+          {
+            "link": "/bibs/chewietal2021mala.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm"
+      },
+      {
         "authors": "Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme",
         "date": "June 2021",
         "links": [
@@ -945,21 +964,6 @@
           }
         ],
         "title": "Dimension-free log-Sobolev inequalities for mixture distributions"
-      },
-      {
-        "authors": "Sinho Chewi, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet",
-        "date": "December 2020",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2012.12810",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewietal2020mala.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm"
       },
       {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
