@@ -864,6 +864,29 @@
   "research": {
     "publications": [
       {
+        "authors": "Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed",
+        "date": "December 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2102.11476",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://www.sciencedirect.com/science/article/pii/S0022123621003189",
+            "name": "Journal of Functional Analysis"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1K2eLQWtPtwuM6wBgRhD0OeG4nh6rI9Pb/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/chenchewinilesweed2021dimfreelsi.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Dimension-free log-Sobolev inequalities for mixture distributions"
+      },
+      {
         "authors": "Sinho Chewi, Patrik Gerber, Philippe Rigollet, and Paxton Turner",
         "date": "September 2021",
         "links": [
@@ -964,25 +987,6 @@
           }
         ],
         "title": "Fast and smooth interpolation on Wasserstein space"
-      },
-      {
-        "authors": "Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed",
-        "date": "February 2021",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2102.11476",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1K2eLQWtPtwuM6wBgRhD0OeG4nh6rI9Pb/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/chenchewinilesweed2021dimfreelsi.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Dimension-free log-Sobolev inequalities for mixture distributions"
       },
       {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
