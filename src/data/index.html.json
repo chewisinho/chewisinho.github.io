@@ -864,6 +864,56 @@
   "research": {
     "publications": [
       {
+        "authors": "Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme",
+        "date": "December 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2106.08502",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://neurips.cc/virtual/2021/spotlight/27139",
+            "name": "NeurIPS 2021 (Spotlight)"
+          },
+          {
+            "link": "https://neurips.cc/virtual/2021/poster/27138",
+            "name": "NeurIPS 2021 (Video)"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1z30ZfAGpbHUWsh-2zbolGbkE8cbrqFng/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/altschuleretal2021bwbarycenter.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Averaging on the Bures-Wasserstein manifold: dimension-free convergence of gradient descent"
+      },
+      {
+        "authors": "Kwangjun Ahn and Sinho Chewi",
+        "date": "December 2021",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2010.16212",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://neurips.cc/virtual/2021/poster/28852",
+            "name": "NeurIPS 2021"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1tl8fyiIwJzoevP1VA_tbaeydfOciJkom/view?usp=sharing",
+            "name": "Poster"
+          },
+          {
+            "link": "/bibs/ahnchewi2020mirrorlangevin.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Efficient constrained sampling via the mirror-Langevin algorithm"
+      },
+      {
         "authors": "Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed",
         "date": "December 2021",
         "links": [
@@ -931,21 +981,6 @@
           }
         ],
         "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm"
-      },
-      {
-        "authors": "Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme",
-        "date": "June 2021",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2106.08502",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/altschuleretal2021bwbarycenter.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Averaging on the Bures-Wasserstein manifold: dimension-free convergence of gradient descent"
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
@@ -1041,21 +1076,6 @@
           }
         ],
         "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence"
-      },
-      {
-        "authors": "Kwangjun Ahn and Sinho Chewi",
-        "date": "November 2020",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2010.16212",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/ahnchewi2020mirrorlangevin.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Efficient constrained sampling via the mirror-Langevin algorithm"
       },
       {
         "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
