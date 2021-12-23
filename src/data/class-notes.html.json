@@ -1,0 +1,260 @@
+{
+  "notes": [
+    {
+      "header": "COMPSCI 70",
+      "links": [
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5N1VSUGRyTC1RS28/view?usp=sharing&resourcekey=0-usGJvlG9TWbjzUJFUmJCxQ",
+          "name": "Midterm 1 Review Slides (Fall 2016)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5cXFacVZwQlZpM3c/view?usp=sharing&resourcekey=0-2tmp1EbCaVfH4qFx_qlgFQ",
+          "name": "Continuous Probability Review Slides (Fall 2016)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5Wnh5M2VEa05DNWs/view?usp=sharing&resourcekey=0-OaXGlNeneSp79WNshWYh5A",
+          "name": "Tips & Tricks in Probability Slides (Fall 2016)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5c3BvX3hvSlktdzA/view?usp=sharing&resourcekey=0-vjc6tfu02vKSYUAje2Fozg",
+          "name": "Final Review Slides (Fall 2016)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YWoxYmQ2RjdTdGc",
+          "name": "Markov Chains & Continuous Probability Slides (Spring 2017)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Z3dSN1FTSnNLaFk", 
+          "name": "Extra Note 1: Cauchy Induction"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Ukp0Y00xbjgtRlU",
+          "name": "Extra Note 2: Top Trading Cycles (TTC) Algorithm"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5cjh2S0pNc2VHV00",
+          "name": "Extra Note 3: Chinese Remainder Theorem"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5bXRQdDF6NGN3WWs/view?usp=sharing&resourcekey=0-bctnbZBC1Tk_WYrD5wN8HA", 
+          "name": "Extra Note 4: Hard Problems & Public Key Cryptosystems"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5RFdFUXpsSFdVRnM", 
+          "name": "Extra Note 5: Eisenstein's Criterion"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5dHRzYWR3SXhYa0k",
+          "name": "Extra Note 6: Algebraic Coding Theory"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YklsNnZlWUExODg", 
+          "name": "Extra Note 7: Cantor-Schr\u00f6der-Bernstein Theorem"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ekVWejhDeHdnSXM", 
+          "name": "Extra Note 8: Generating Functions"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NEhMQ3NSMXJwUXc", 
+          "name": "Extra Note 9: Generating Functions II"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5NC1oZ2lRSWZFZzA",
+          "name": "Extra Note 10: Pairwise Independent Hash Functions"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5X3pLYjZNMzZhU1k", 
+          "name": "Extra Note 11: Moment-Generating Functions"
+        }, 
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5c1BNZFhxLW5GRWs",
+          "name": "Extra Note 12: Jensen's Inequality"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5YjUyaVdJRG9UT0E",
+          "name": "Extra Note 13: Martingales"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5R0dZamVmbXlweEk",
+          "name": "Extra Note 14: PageRank"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5dkl1SGVqOEJ6bk0",
+          "name": "Extra Note 15: Beta Distribution"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5aFU1ZGowVlk4Nmc/view?usp=sharing&resourcekey=0-QZyVbZJ9VvrYyPjff2tqEA", 
+          "name": "Propositional Logic: Quantifier Distribution Problem"
+        }, 
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5MjB2MnhvT1hEOFk/view?usp=sharing&resourcekey=0-OdR86qPw1xTFv0RWstJfhg", 
+          "name": "Induction: Celebrity Algorithm Problem"
+        }, 
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5VmNHeEtkVGk1d00/view?usp=sharing&resourcekey=0-KNxc7oMyjsoEWpXEOYMNNg", 
+          "name": "Continuous Probability: Continuous Conditional Expectation Problem"
+        }
+      ],
+      "title": "Discrete Mathematics & Probability Theory"
+    },
+    {
+      "header": "OTHER CLASSES",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=1Jg9vWH196rzGhqDuXXvvkafRGQgjCcMz",
+          "name": "COMPSCI 271 (Randomness & Computation)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=18sIiNqCplECywr2sbkZBVd21ySCj1zph",
+          "name": "EL ENG 223 (Stochastic Systems: Estimation & Control)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1PXsncv39CHloXiB126i0MbYPQWwPAieB",
+          "name": "EL ENG 226A (Random Processes in Systems)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5ejAyTm9nZGFzRzQ",
+          "name": "MATH 115 (Introduction to Number Theory)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5NDdqSnJtM004Y2c/view?usp=sharing&resourcekey=0-122ZGTyytqwmYZ129q1W0A",
+          "name": "MATH 135 (Introduction to the Theory of Sets)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1qxHn16pP0u2MHUhD39dO_e9hcr7Nz6Su",
+          "name": "MATH 141 (Elementary Differential Topology)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5VThqYURRYU5mZUU/view?usp=sharing&resourcekey=0-3oUuz6tkqmjb9wlWoGYx3g",
+          "name": "MATH 185 (Introduction to Complex Analysis)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5SnU2ZFoydVJUXzA/view?usp=sharing&resourcekey=0-SJ_IG0UtZ0Jazh0K1VqyFw",
+          "name": "MATH C218A/STAT C205A (Probability Theory)"
+        },
+        {
+          "link": "https://drive.google.com/file/d/0B_WFOD8f4jS5MUJ3M3g1SnowOTg/view?usp=sharing&resourcekey=0-WWnF4AWwURWOexmfjo2gYg",
+          "name": "MATH C218B/STAT C205B (Probability Theory)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1Z6bHDkDuvK5_EGLG1b7WnIyEMv0corFp",
+          "name": "STAT 210A (Theoretical Statistics)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=19xCJElPd58xitn9UV9mBmiORDkQ2oa-K",
+          "name": "STAT 210B (Theoretical Statistics)"
+        }
+      ],
+      "title": ""
+    },
+    {
+      "header": "PROBABILITY NOTES",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5VGVhcFpSdGFKeUk",
+          "name": "0: Combinatorics"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5TkFOYS1xLUQxSVE",
+          "name": "1: Probability Theory"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5a3lmX1BPSEVDZ2c",
+          "name": "2: Discrete Random Variables"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5Y0hfRm9KcmJyVVk",
+          "name": "3: Variance & Inequalities"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5aG9NZVNVTGJrUzQ",
+          "name": "4: Regression & Conditional Expectation"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5aHRlVUxGVEZGVXM",
+          "name": "5: Markov Chains"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5UnJwWjI0VlZNSzg",
+          "name": "6: Continuous Probability I"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5anZZSGhrNTEycGM",
+          "name": "7: Continuous Probability II"
+        },
+        {
+          "link": "https://drive.google.com/open?id=0B_WFOD8f4jS5QWdiSk5XLV9ITEk",
+          "name": "8: Information Theory"
+        }
+      ],
+      "title": ""
+    }
+  ],
+  "graduate_notes": [
+    {
+      "header": "CLASS NOTES",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=1n6Vc5uq694cJBfpm9QIbaVhRvltedcHU",
+          "name": "18.137 (Topics in Geometric PDEs)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1zCswDvMCPYD7btkPXMwgz_X90uWAl2zq",
+          "name": "18.1521 (Introduction to Partial Differential Equations)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1plWkWjEK7NTodBUyyzesflzjTwLlD3De",
+          "name": "18.158 (Topics in Differential Equations)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1mcsB4oLMRNKXcloeVpl7jVlvB3xLk_i3",
+          "name": "18.176 (Stochastic Calculus)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1UCuRTK2M5vmJkjAecBYFwil6BW0JbdoD",
+          "name": "18.338 (Eigenvalues of Random Matrices)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1xeZHlFC8xoM4lc-1bJgQwQfNg-bfSMol",
+          "name": "18.966 (Geometry of Manifolds II)"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1NjWUfhNyI2dLD6lBjwIB2a18C4B6YFf_",
+          "name": "COMPSCI 229R (Topics in Theoretical Computer Science: Interactions between Physics and Computation)"
+        }
+      ],
+      "title": ""
+    },
+    {
+      "header": "OTHER NOTES",
+      "links": [
+        {
+          "link": "https://drive.google.com/open?id=10xreIn13pS_SlZfEUb2GQVE2jhk-1piy",
+          "name": "18.177 Presentation: Non-Linear Large Deviations via Gaussian Gradient Width"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1W1m6ZwdnUT2YyTCm5AHwDCGxX6cPz4Fz",
+          "name": "18.338 Presentation: Sparse PCA"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1qx70TeV2khqKKYYUhCrzp59B5J_7a34M",
+          "name": "COMPSCI 229R Official Scribe Notes"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1eIn1uPo2e0is5PWS-yjyeshJtgs7lgK8",
+          "name": "Estimating Functionals of Discrete Distributions"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1mxO7OT_haZ9uO68PaXj1TVcTkHp_hScz",
+          "name": "Metric Geometry for Statistics"
+        },
+        {
+          "link": "https://drive.google.com/open?id=1CItYUSQ7vhPL4p3gl-7Ic3JKqp-oPpQU",
+          "name": "TAP Free Energy"
+        }
+      ],
+      "title": ""
+    }
+  ]
+}

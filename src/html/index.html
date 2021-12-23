@@ -90,26 +90,7 @@
                 <div class="col-lg-12">
                     <h1>Notes</h1>
                 </div>
-                <p>Here is a collection of notes that I have written. <a href="/undergraduate">Click here</a> to find the notes I took as an undergraduate at UC Berkeley. If you would like the source code for my notes, <a href="/latex">click here</a>.</p>
-                {% set i = 0 %}
-                {% for note in notes %}
-                {% set i = i + 1 %}
-                <div class="col-lg-4">
-                  <h3>{{ note.header }}</h3>
-                  <h5>{{ note.title }}</h5>
-                  <ul>
-                    {% for link in note.links %}
-                    <li>
-                      <a href="{{ link.link }}">{{ link.name }}</a>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-                {% if i % 3 == 0 %}
-                <div class="clearfix visible-lg-block">
-                </div>
-                {% endif %}
-                {% endfor %}
+                <p><a href="/class-notes">Click here</a> to find the notes I took during my undergraduate and graduate studies.</p>
             </div>
         </div>
     </section>

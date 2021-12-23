@@ -54,20 +54,50 @@
                     <li>
                         <a class="page-scroll" href="#undergraduate">Undergraduate Notes</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#graduate">Graduate Notes</a>
+                    </li>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Section -->
-    <section id="extra" class="extra-section">
+    <section id="intro" class="extra-section">
         <div class="container">
+            <div class="row" id="undergraduate">
+                <div class="col-lg-12">
+                    <p>This page is a collection of notes that I wrote in my undergraduate and graduate studies. Due to a Google Drive privacy update, some of the links may be broken; in this case, request permission to access the file and I will update the link. If you would like the source code for my notes, <a href="/latex">click here</a>.</p>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Undergraduate Notes</h1>
-                    <p>Here is a collection of notes that I have written as an undergraduate at UC Berkeley. You can find my probability notes <a href="/probability">here</a>. Also, I contributed to the course notes for EECS 126 in Spring 2018 and prepared slides and notes for COMPSCI 70 in Summer 2018, which can be found on the respective course websites: <a href="https://inst.eecs.berkeley.edu/~ee126/sp18/">here</a> and <a href="http://www.su18.eecs70.org/">here</a>. Finally, <a href="/extra">here</a> is a collection of other miscellaneous notes and pieces. If you would like the source code for my notes, <a href="/latex">click here</a>.</p>
+                    <p>Here is a collection of notes that I have written as an undergraduate at UC Berkeley. I also contributed to the course notes for EECS 126 in Spring 2018 and prepared slides and notes for COMPSCI 70 in Summer 2018, which can be found on the respective course websites: <a href="https://inst.eecs.berkeley.edu/~ee126/sp18/">here</a> and <a href="http://www.su18.eecs70.org/">here</a>. Finally, <a href="/extra">here</a> is a collection of other miscellaneous notes and pieces.</p>
                 {% set i = 0 %}
                 {% for note in notes %}
+                {% set i = i + 1 %}
+                <div class="col-lg-4">
+                  <h3>{{ note.header }}</h3>
+                  <h5>{{ note.title }}</h5>
+                  <ul>
+                    {% for link in note.links %}
+                    <li>
+                      <a href="{{ link.link }}">{{ link.name }}</a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% if i % 3 == 0 %}
+                <div class="clearfix visible-lg-block">
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-12" id="graduate">
+                    <h1>Graduate Notes</h1>
+                    <p>Here is a collection of notes that I have written as a PhD student at MIT.</p>
+                {% set i = 0 %}
+                {% for note in graduate_notes %}
                 {% set i = i + 1 %}
                 <div class="col-lg-4">
                   <h3>{{ note.header }}</h3>
