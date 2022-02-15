@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Yongxin Chen, Sinho Chewi, Adil Salim, and Andre Wibisono",
+        "date": "February 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2202.06386",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chenetal2022proximalsampler.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Improved analysis for a proximal algorithm for sampling"
+      },
+      {
         "authors": "Krishnakumar Balasubramanian, Sinho Chewi, Murat Erdogdu, Adil Salim, and Matthew Zhang",
         "date": "February 2022",
         "links": [
