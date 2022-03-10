@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi and Aram-Alexandre Pooladian",
+        "date": "March 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2203.04954",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewipooladian2022caffarelli.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
+      },
+      {
         "authors": "Yongxin Chen, Sinho Chewi, Adil Salim, and Andre Wibisono",
         "date": "February 2022",
         "links": [
