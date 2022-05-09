@@ -2,6 +2,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
+        "date": "March 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2105.14166",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v151/chewi22a.html",
+            "name": "AISTATS 2022"
+          },
+          {
+            "link": "/bibs/chewietal2022rejection.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Rejection sampling from shape-constrained distributions in sublinear time"
+      },
+      {
         "authors": "Sinho Chewi and Aram-Alexandre Pooladian",
         "date": "March 2022",
         "links": [
@@ -185,7 +204,7 @@
             "name": "Poster"
           },
           {
-            "link": "https://drive.google.com/file/d/1NyLbuPkAGkG5kYS71K3XEpltCMvzPhtH/view?usp=sharing",
+            "link": "https://drive.google.com/file/d/1jv7wOl0eMzOes9dZuU4AZvQqo_S3W2LF/view?usp=sharing",
             "name": "Slides"
           },
           {
@@ -209,21 +228,6 @@
           }
         ],
         "title": "The query complexity of sampling from strongly log-concave distributions in one dimension"
-      },
-      {
-        "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
-        "date": "May 2021",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2105.14166",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewietal2021rejection.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Rejection sampling from shape-constrained distributions in sublinear time"
       },
       {
         "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme",
