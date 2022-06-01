@@ -2,6 +2,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
+        "date": "May 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2205.15902",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1F_xXVbf26JfgadDpgZsUVL0WahkLejzc/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/lambertetal2022viwgf.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Variational inference via Wasserstein gradient flows"
+      },
+      {
         "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
         "date": "March 2022",
         "links": [
