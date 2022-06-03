@@ -63,6 +63,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://drive.google.com/file/d/1hQQuDUUmANB-z3k09zUxVp6Sr5Njjbbc/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
             "link": "/bibs/chenetal2022proximalsampler.bib",
             "name": ".bib"
           }
