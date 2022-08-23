@@ -3,11 +3,15 @@
     "publications": [
       {
         "authors": "Sinho Chewi, Patrik Gerber, Philippe Rigollet, and Paxton Turner",
-        "date": "August 2022",
+        "date": "December 2022",
         "links": [
           {
             "link": "https://arxiv.org/abs/2109.08280",
             "name": "arXiv"
+          },
+          {
+            "link": "https://www.sciencedirect.com/science/article/pii/S0166218X22002992",
+            "name": "Discrete Applied Mathematics"
           },
           {
             "link": "/bibs/chewietal2022disc.bib",
