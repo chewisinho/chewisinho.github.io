@@ -6755,3 +6755,16 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.row-flex {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}

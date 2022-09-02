@@ -47,7 +47,7 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .extra-section {
@@ -64,24 +64,31 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.note-section {
+.book-section {
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
     background: #eee;
 }
 
-.research-section {
+.note-section {
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
     background: #fff;
 }
 
-.teaching-section {
+.research-section {
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
     background: #eee;
+}
+
+.teaching-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
 }
 
