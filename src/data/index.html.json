@@ -21,6 +21,21 @@
         "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing"
       },
       {
+        "authors": "Sinho Chewi, Sébastien Bubeck, and Adil Salim",
+        "date": "September 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2209.07513",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chewibubecksalim2022stationary.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "On the complexity of finding stationary points of smooth functions in one dimension"
+      },
+      {
         "authors": "Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang",
         "date": "July 2022",
         "links": [
