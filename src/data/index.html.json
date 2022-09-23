@@ -21,6 +21,21 @@
         "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing"
       },
       {
+        "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
+        "date": "September 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2209.11215",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/chenetal2022diffusionmodels.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions"
+      },
+      {
         "authors": "Sinho Chewi, Sébastien Bubeck, and Adil Salim",
         "date": "September 2022",
         "links": [
