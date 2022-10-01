@@ -29,6 +29,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://drive.google.com/file/d/1UbS6m1J6qy4ydQkuQclJlDNRncJbmC9z/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
             "link": "/bibs/chenetal2022diffusionmodels.bib",
             "name": ".bib"
           }
