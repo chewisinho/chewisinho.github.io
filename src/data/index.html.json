@@ -21,6 +21,29 @@
         "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing"
       },
       {
+        "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
+        "date": "October 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2205.15902",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1S6QYYvzCh6sQh0FHj4u72pcDJXfa-aAM/view?usp=sharing",
+            "name": "UMass Amherst Reading Seminar on Mathematics of Machine Learning (Video)"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1WuYphv2Y3GWXhkl7ote1HOdWaApjjDtZ/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/lambertetal2022viwgf.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Variational inference via Wasserstein gradient flows"
+      },
+      {
         "authors": "Sinho Chewi, Patrik Gerber, Holden Lee, and Chen Lu",
         "date": "October 2022",
         "links": [
@@ -168,29 +191,6 @@
           }
         ],
         "title": "Towards a theory of non-log-concave sampling: first-order stationarity guarantees for Langevin Monte Carlo"
-      },
-      {
-        "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
-        "date": "May 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2205.15902",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1S6QYYvzCh6sQh0FHj4u72pcDJXfa-aAM/view?usp=sharing",
-            "name": "UMass Amherst Reading Seminar on Mathematics of Machine Learning (Video)"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1WuYphv2Y3GWXhkl7ote1HOdWaApjjDtZ/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/lambertetal2022viwgf.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Variational inference via Wasserstein gradient flows"
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
