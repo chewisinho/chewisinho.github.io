@@ -29,6 +29,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://nips.cc/virtual/2022/poster/55021",
+            "name": "NeurIPS 2022"
+          },
+          {
             "link": "https://drive.google.com/file/d/1S6QYYvzCh6sQh0FHj4u72pcDJXfa-aAM/view?usp=sharing",
             "name": "UMass Amherst Reading Seminar on Mathematics of Machine Learning (Video)"
           },
