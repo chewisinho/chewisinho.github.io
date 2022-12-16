@@ -21,6 +21,21 @@
         "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing"
       },
       {
+        "authors": "Kwangjun Ahn, Sébastien Bubeck, Sinho Chewi, Yin Tat Lee, Felipe Suarez, and Yi Zhang",
+        "date": "December 2022",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2212.07469",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/ahnetal2022eos.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Learning threshold neurons via the \"edge of stability\""
+      },
+      {
         "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
         "date": "October 2022",
         "links": [
