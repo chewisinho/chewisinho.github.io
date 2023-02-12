@@ -75,6 +75,10 @@
             "name": "arXiv"
           },
           {
+            "link": "http://algorithmiclearningtheory.org/alt2023/accepted-papers/",
+            "name": "ALT 2023"
+          },
+          {
             "link": "https://drive.google.com/file/d/1TVPY8tAz6QxhGSu_Z-im-jb_U5iaiFfu/view?usp=share_link",
             "name": "Slides"
           },
@@ -94,6 +98,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://openreview.net/forum?id=zyLVMgsZ0U_",
+            "name": "ICLR 2023 <b>(Notable Top 5%)</b>"
+          },
+          {
             "link": "https://mediaspace.gatech.edu/media/ARC+Colloquium/1_9rj0wx5s",
             "name": "Georgia Tech ARC Colloquium (Video)"
           },
@@ -102,7 +110,7 @@
             "name": "Poster"
           },
           {
-            "link": "https://drive.google.com/file/d/1-cgv-BDXsNrGyrlMa6StZodIsNEw1XLB/view?usp=sharing",
+            "link": "https://drive.google.com/file/d/1BZIo6lbPOPowdgmPpJJ-2t-LLkfG_Zlw/view?usp=share_link",
             "name": "Slides"
           },
           {
@@ -119,6 +127,10 @@
           {
             "link": "https://arxiv.org/abs/2209.07513",
             "name": "arXiv"
+          },
+          {
+            "link": "http://algorithmiclearningtheory.org/alt2023/accepted-papers/",
+            "name": "ALT 2023 <b>(Best Student Paper)</b>"
           },
           {
             "link": "/bibs/chewibubecksalim2022stationary.bib",
@@ -278,7 +290,7 @@
           },
           {
             "link": "https://neurips.cc/virtual/2021/spotlight/27139",
-            "name": "NeurIPS 2021 (Spotlight)"
+            "name": "NeurIPS 2021 <b>(Spotlight)</b>"
           },
           {
             "link": "https://neurips.cc/virtual/2021/poster/27138",
