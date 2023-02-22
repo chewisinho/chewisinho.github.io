@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Jason Altschuler and Sinho Chewi",
+        "date": "February 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2302.10249",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/altschulerchewi2023warmstart.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
+      },
+      {
         "authors": "Matthew Zhang, Sinho Chewi, Mufan Li, Krishnakumar Balasubramanian, and Murat Erdogdu",
         "date": "February 2023",
         "links": [
