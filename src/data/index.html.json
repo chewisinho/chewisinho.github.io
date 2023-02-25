@@ -2,12 +2,58 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Patrik Gerber, Holden Lee, and Chen Lu",
+        "date": "February 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2210.02482",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v201/chewi23b.html",
+            "name": "ALT 2023"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1TVPY8tAz6QxhGSu_Z-im-jb_U5iaiFfu/view?usp=share_link",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/chewietal2023fisherinfo.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Fisher information lower bounds for sampling"
+      },
+      {
+        "authors": "Sinho Chewi, Sébastien Bubeck, and Adil Salim",
+        "date": "February 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2209.07513",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v201/chewi23a.html",
+            "name": "ALT 2023 <b>(Best Student Paper)</b>"
+          },
+          {
+            "link": "/bibs/chewibubecksalim2023stationary.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "On the complexity of finding stationary points of smooth functions in one dimension"
+      },
+      {
         "authors": "Jason Altschuler and Sinho Chewi",
         "date": "February 2023",
         "links": [
           {
             "link": "https://arxiv.org/abs/2302.10249",
             "name": "arXiv"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1KNffBZZFgUGYR-Cz3tneLoME7gjw3mH1/view?usp=share_link",
+            "name": "Slides"
           },
           {
             "link": "/bibs/altschulerchewi2023warmstart.bib",
@@ -67,7 +113,7 @@
       },
       {
         "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
-        "date": "October 2022",
+        "date": "December 2022",
         "links": [
           {
             "link": "https://arxiv.org/abs/2205.15902",
@@ -95,29 +141,6 @@
           }
         ],
         "title": "Variational inference via Wasserstein gradient flows"
-      },
-      {
-        "authors": "Sinho Chewi, Patrik Gerber, Holden Lee, and Chen Lu",
-        "date": "October 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2210.02482",
-            "name": "arXiv"
-          },
-          {
-            "link": "http://algorithmiclearningtheory.org/alt2023/accepted-papers/",
-            "name": "ALT 2023"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1TVPY8tAz6QxhGSu_Z-im-jb_U5iaiFfu/view?usp=share_link",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/chewietal2022fisherinfo.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Fisher information lower bounds for sampling"
       },
       {
         "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
@@ -149,25 +172,6 @@
           }
         ],
         "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions"
-      },
-      {
-        "authors": "Sinho Chewi, Sébastien Bubeck, and Adil Salim",
-        "date": "September 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2209.07513",
-            "name": "arXiv"
-          },
-          {
-            "link": "http://algorithmiclearningtheory.org/alt2023/accepted-papers/",
-            "name": "ALT 2023 <b>(Best Student Paper)</b>"
-          },
-          {
-            "link": "/bibs/chewibubecksalim2022stationary.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "On the complexity of finding stationary points of smooth functions in one dimension"
       },
       {
         "authors": "Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang",
