@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Michael Diao, Krishnakumar Balasubramanian, Sinho Chewi, and Adil Salim",
+        "date": "April 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2304.05398",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/diaoetal2023fbgvi.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Forward-backward Gaussian variational inference via JKO in the Bures-Wasserstein space"
+      },
+      {
         "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
         "date": "April 2023",
         "links": [
