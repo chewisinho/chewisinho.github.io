@@ -2,6 +2,37 @@
   "research": {
     "publications": [
       {
+        "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
+        "date": "May 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2209.11215",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://openreview.net/forum?id=zyLVMgsZ0U_",
+            "name": "ICLR 2023 <b>(Notable Top 5%)</b>"
+          },
+          {
+            "link": "https://mediaspace.gatech.edu/media/ARC+Colloquium/1_9rj0wx5s",
+            "name": "Georgia Tech ARC Colloquium (Video)"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1usklsDLiyL2JK2gtdeFYBLeTPgf5ULS7/view?usp=share_link",
+            "name": "Poster"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1BZIo6lbPOPowdgmPpJJ-2t-LLkfG_Zlw/view?usp=share_link",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/chenetal2023diffusionmodels.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions"
+      },
+      {
         "authors": "Michael Diao, Krishnakumar Balasubramanian, Sinho Chewi, and Adil Salim",
         "date": "April 2023",
         "links": [
@@ -86,7 +117,7 @@
             "name": "arXiv"
           },
           {
-            "link": "https://drive.google.com/file/d/1OH6cByLO4hRIwb7wt1WG3K45ZQ6oT_WI/view?usp=share_link",
+            "link": "https://drive.google.com/file/d/1EiPjwmey7UyoUT6_L5QxZuZVmV-olekX/view?usp=share_link",
             "name": "Slides"
           },
           {
@@ -175,37 +206,6 @@
           }
         ],
         "title": "Variational inference via Wasserstein gradient flows"
-      },
-      {
-        "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
-        "date": "October 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2209.11215",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://openreview.net/forum?id=zyLVMgsZ0U_",
-            "name": "ICLR 2023 <b>(Notable Top 5%)</b>"
-          },
-          {
-            "link": "https://mediaspace.gatech.edu/media/ARC+Colloquium/1_9rj0wx5s",
-            "name": "Georgia Tech ARC Colloquium (Video)"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1usklsDLiyL2JK2gtdeFYBLeTPgf5ULS7/view?usp=share_link",
-            "name": "Poster"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1BZIo6lbPOPowdgmPpJJ-2t-LLkfG_Zlw/view?usp=share_link",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/chenetal2022diffusionmodels.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions"
       },
       {
         "authors": "Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang",
