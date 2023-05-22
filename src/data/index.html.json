@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sitan Chen, Sinho Chewi, Holden Lee, Yuanzhi Li, Jianfeng Lu, and Adil Salim",
+        "date": "May 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2305.11798",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Chenetal23flowode.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "The probability flow ODE is provably fast"
+      },
+      {
         "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
         "date": "May 2023",
         "links": [
