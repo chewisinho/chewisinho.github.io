@@ -2,6 +2,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Matthew Zhang, Sinho Chewi, Mufan Li, Krishnakumar Balasubramanian, and Murat Erdogdu",
+        "date": "July 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2302.08049",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v195/zhang23a.html",
+            "name": "COLT 2023"
+          },
+          {
+            "link": "/bibs/Zhangetal23ULMC.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Improved discretization analysis for underdamped Langevin Monte Carlo"
+      },
+      {
         "authors": "Sitan Chen, Sinho Chewi, Holden Lee, Yuanzhi Li, Jianfeng Lu, and Adil Salim",
         "date": "May 2023",
         "links": [
@@ -141,21 +160,6 @@
           }
         ],
         "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
-      },
-      {
-        "authors": "Matthew Zhang, Sinho Chewi, Mufan Li, Krishnakumar Balasubramanian, and Murat Erdogdu",
-        "date": "February 2023",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2302.08049",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/zhangetal2023underdamped.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Improved discretization analysis for underdamped Langevin Monte Carlo"
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Philippe Rigollet, and Paxton Turner",
