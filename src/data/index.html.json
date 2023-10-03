@@ -2,6 +2,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi",
+        "date": "September 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2112.10947",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://link.springer.com/chapter/10.1007/978-3-031-26300-2_6",
+            "name": "GAFA Seminar Notes"
+          },
+          {
+            "link": "/bibs/Chewi23EntropicBarrier.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "The entropic barrier is n-self-concordant"
+      },
+      {
         "authors": "Michael Diao, Krishnakumar Balasubramanian, Sinho Chewi, and Adil Salim",
         "date": "July 2023",
         "links": [
@@ -359,21 +378,6 @@
           }
         ],
         "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
-      },
-      {
-        "authors": "Sinho Chewi",
-        "date": "December 2021",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2112.10947",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewi2021entropicbarrier.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "The entropic barrier is n-self-concordant"
       },
       {
         "authors": "Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme",
