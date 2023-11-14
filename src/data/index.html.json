@@ -2,6 +2,71 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi and Aram-Alexandre Pooladian",
+        "date": "November 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2203.04954",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.486/",
+            "name": "Comptes Rendus Mathématique"
+          },
+          {
+            "link": "/bibs/ChePoo23Caffarelli.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
+      },
+      {
+        "authors": "Jason Altschuler and Sinho Chewi",
+        "date": "November 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2302.10249",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://focs.computer.org/2023/focs-2023-list-of-accepted-papers/",
+            "name": "FOCS 2023"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1tZmOzog8S6mrh2sY_Uh4UZKqI17D-whP/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/altschulerchewi2023warmstart.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
+      },
+      {
+        "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
+        "date": "November 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2304.02599",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://focs.computer.org/2023/focs-2023-list-of-accepted-papers/",
+            "name": "FOCS 2023"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1zTImQBpHQTPo58gnq-_KhZJKR9pgJhlq/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/chewietal23samplinglower.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Query lower bounds for log-concave sampling"
+      },
+      {
         "authors": "Sinho Chewi",
         "date": "September 2023",
         "links": [
@@ -113,25 +178,6 @@
         "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions"
       },
       {
-        "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
-        "date": "April 2023",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2304.02599",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1zTImQBpHQTPo58gnq-_KhZJKR9pgJhlq/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/chewietal23samplinglower.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Query lower bounds for log-concave sampling"
-      },
-      {
         "authors": "Sinho Chewi, Patrik Gerber, Holden Lee, and Chen Lu",
         "date": "February 2023",
         "links": [
@@ -172,25 +218,6 @@
           }
         ],
         "title": "On the complexity of finding stationary points of smooth functions in one dimension"
-      },
-      {
-        "authors": "Jason Altschuler and Sinho Chewi",
-        "date": "February 2023",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2302.10249",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1tZmOzog8S6mrh2sY_Uh4UZKqI17D-whP/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/altschulerchewi2023warmstart.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Philippe Rigollet, and Paxton Turner",
@@ -367,21 +394,6 @@
           }
         ],
         "title": "Rejection sampling from shape-constrained distributions in sublinear time"
-      },
-      {
-        "authors": "Sinho Chewi and Aram-Alexandre Pooladian",
-        "date": "March 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2203.04954",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/chewipooladian2022caffarelli.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
       },
       {
         "authors": "Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme",
