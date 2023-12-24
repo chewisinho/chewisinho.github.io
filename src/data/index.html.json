@@ -63,7 +63,7 @@
             "name": "arXiv"
           },
           {
-            "link": "https://focs.computer.org/2023/focs-2023-list-of-accepted-papers/",
+            "link": "https://ieeexplore.ieee.org/document/10353093",
             "name": "FOCS 2023"
           },
           {
@@ -71,7 +71,7 @@
             "name": "Slides"
           },
           {
-            "link": "/bibs/altschulerchewi2023warmstart.bib",
+            "link": "/bibs/AltChe23Warm.bib",
             "name": ".bib"
           }
         ],
@@ -86,7 +86,7 @@
             "name": "arXiv"
           },
           {
-            "link": "https://focs.computer.org/2023/focs-2023-list-of-accepted-papers/",
+            "link": "https://ieeexplore.ieee.org/document/10353203",
             "name": "FOCS 2023"
           },
           {
@@ -94,7 +94,7 @@
             "name": "Slides"
           },
           {
-            "link": "/bibs/chewietal23samplinglower.bib",
+            "link": "/bibs/Chewietal23QueryLower.bib",
             "name": ".bib"
           }
         ],
