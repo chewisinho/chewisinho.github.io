@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Jason Altschuler and Sinho Chewi",
+        "date": "December 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2401.00071",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/AltChe23SCII.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Shifted composition II: shift Harnack inequalities and curvature upper bounds"
+      },
+      {
         "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
         "date": "December 2023",
         "links": [
