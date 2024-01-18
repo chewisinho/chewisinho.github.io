@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Nima Anari, Sinho Chewi, and Thuy-Duong Vuong",
+        "date": "January 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2401.09016",
+            "name": "arXiv"
+          },
+          {
+            "link": "AnaCheVuo24Parallel.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Fast parallel sampling under isoperimetry"
+      },
+      {
         "authors": "Jason Altschuler and Sinho Chewi",
         "date": "December 2023",
         "links": [
