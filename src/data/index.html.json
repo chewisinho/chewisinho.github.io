@@ -47,6 +47,48 @@
         "title": "Shifted composition II: shift Harnack inequalities and curvature upper bounds"
       },
       {
+        "authors": "Kwangjun Ahn, Sébastien Bubeck, Sinho Chewi, Yin Tat Lee, Felipe Suárez-Colmenares, and Yi Zhang",
+        "date": "December 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2212.07469",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://papers.nips.cc/paper_files/paper/2023/hash/3e592c571de69a43d7a870ea89c7e33a-Abstract-Conference.html",
+            "name": "NeurIPS 2023"
+          },
+          {
+            "link": "/bibs/Ahn+23ThresholdEoS.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Learning threshold neurons via the \"edge of stability\""
+      },
+      {
+        "authors": "Sitan Chen, Sinho Chewi, Holden Lee, Yuanzhi Li, Jianfeng Lu, and Adil Salim",
+        "date": "December 2023",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2305.11798",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://papers.nips.cc/paper_files/paper/2023/hash/d84a27ff694345aacc21c72097a69ea2-Abstract-Conference.html",
+            "name": "NeurIPS 2023"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1l78u-1QMmsIJeDTR7BAcoeh4AJ5HwlHK/view?usp=share_link",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/Chen+23FlowODE.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "The probability flow ODE is provably fast"
+      },
+      {
         "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
         "date": "December 2023",
         "links": [
@@ -207,25 +249,6 @@
         "title": "Improved discretization analysis for underdamped Langevin Monte Carlo"
       },
       {
-        "authors": "Sitan Chen, Sinho Chewi, Holden Lee, Yuanzhi Li, Jianfeng Lu, and Adil Salim",
-        "date": "May 2023",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2305.11798",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1l78u-1QMmsIJeDTR7BAcoeh4AJ5HwlHK/view?usp=share_link",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/Chenetal23flowode.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "The probability flow ODE is provably fast"
-      },
-      {
         "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
         "date": "May 2023",
         "links": [
@@ -316,21 +339,6 @@
           }
         ],
         "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing"
-      },
-      {
-        "authors": "Kwangjun Ahn, Sébastien Bubeck, Sinho Chewi, Yin Tat Lee, Felipe Suárez-Colmenares, and Yi Zhang",
-        "date": "December 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2212.07469",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/ahnetal2022eos.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Learning threshold neurons via the \"edge of stability\""
       },
       {
         "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
