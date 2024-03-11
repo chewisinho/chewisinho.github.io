@@ -40,6 +40,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://www.izs.ethz.ch/",
+            "name": "IZS 2024"
+          },
+          {
             "link": "https://drive.google.com/file/d/16nB9L5zFaFkXRjgIL_hcpY850LCoE_x3/view?usp=sharing",
             "name": "Slides"
           },
@@ -118,6 +122,10 @@
           {
             "link": "https://arxiv.org/abs/2311.14520",
             "name": "arXiv"
+          },
+          {
+            "link": "https://www.izs.ethz.ch/",
+            "name": "IZS 2024"
           },
           {
             "link": "https://drive.google.com/file/d/16nB9L5zFaFkXRjgIL_hcpY850LCoE_x3/view?usp=sharing",
