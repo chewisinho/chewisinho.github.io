@@ -2,6 +2,33 @@
   "research": {
     "publications": [
       {
+        "authors": "Jason Altschuler and Sinho Chewi",
+        "date": "March 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2302.10249",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://ieeexplore.ieee.org/document/10353093",
+            "name": "FOCS 2023"
+          },
+          {
+            "link": "https://dl.acm.org/doi/10.1145/3653446",
+            "name": "Journal of the ACM"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1tZmOzog8S6mrh2sY_Uh4UZKqI17D-whP/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/AltChe23Warm.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
+      },
+      {
         "authors": "Yunbum Kook, Matthew Zhang, Sinho Chewi, Murat Erdogdu, and Mufan Li",
         "date": "February 2024",
         "links": [
@@ -156,29 +183,6 @@
           }
         ],
         "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
-      },
-      {
-        "authors": "Jason Altschuler and Sinho Chewi",
-        "date": "November 2023",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2302.10249",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://ieeexplore.ieee.org/document/10353093",
-            "name": "FOCS 2023"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1tZmOzog8S6mrh2sY_Uh4UZKqI17D-whP/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/AltChe23Warm.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
       },
       {
         "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
