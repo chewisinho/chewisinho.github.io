@@ -64,13 +64,13 @@
                         <a class="page-scroll" href="#book">Book</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#notes">Notes</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#research">Research</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#teaching">Teaching</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#other">Other</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -118,18 +118,6 @@
         </div>
     </section>
 
-    <!-- Notes Section -->
-    <section id="notes" class="note-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Notes</h1>
-                </div>
-                <p><a href="/class-notes">Click here</a> to find the notes I took during my undergraduate and graduate studies.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Research Section -->
     <section id="research" class="research-section">
         <div class="container">
@@ -158,74 +146,20 @@
         <div class="container">
             <div class="col-lg-12">
                 <h1>Teaching</h1>
-                <p>Here is a list of courses that I have taught in the past.</p>
+                <p>In Fall 2024, I will be teaching <a href="/sds-605-fa24">S&DS 605: Sampling and Optimal Transport</a>.</p>
                 <br>
             </div>
-            {% set counter = 0 %}
+        </div>
+    </section>
+
+    <!-- Other Section -->
+    <section id="other" class="other-section">
+        <div class="container">
             <div class="row">
-            {% for semester in teaching_instructor %}
-            {% if counter % 2 == 0 and counter > 0 %}
-            </div>
-            <div class="row">
-            {% endif %}
-            {% set counter = counter + 1 %}
-                <div class="col-lg-6">
-                    <ul>
-                        <i>{{ semester.semester }}</i><br>
-                        {% for class in semester.classes %}
-                        <div>
-                            <b>
-                            {% if class.link is defined %}
-                            <a href="{{ class.link }}">
-                            {%- endif -%}
-                            {{- class.number -}}
-                            {%- if class.link is defined -%}
-                            </a>
-                            {% endif %}
-                            </b>
-                            – {{ class.name }}
-                        </div>
-                        {% endfor %}
-                    </ul>
+                <div class="col-lg-12">
+                    <h1>Other</h1>
                 </div>
-            {% endfor %}
-            </div>
-            <div class="col-lg-12">
-                <p>I have also been a TA for these courses.</p>
-                <br>
-            </div>
-            {% set counter = 0 %}
-            <div class="row">
-            {% for semester in teaching %}
-            {% if counter % 2 == 0 and counter > 0 %}
-            </div>
-            <div class="row">
-            {% endif %}
-            {% set counter = counter + 1 %}
-                <div class="col-lg-6">
-                    <ul>
-                        <i>{{ semester.semester }}</i><br>
-                        {% for class in semester.classes %}
-                        <div>
-                            <b>
-                            {% if class.link is defined %}
-                            <a href="{{ class.link }}">
-                            {%- endif -%}
-                            {{- class.number -}}
-                            {%- if class.link is defined -%}
-                            </a>
-                            {% endif %}
-                            </b>
-                            – {{ class.name }} ({{ class.instructors }})
-                        </div>
-                        {% endfor %}
-                    </ul>
-                </div>
-            {% endfor %}
-            </div>
-            <div class="col-lg-12">
-                <p>I have led some Directed Reading Programs (DRP): <a href="/drp-2019">2019</a>, <a href="/drp-2020">2020</a>, <a href="/drp-2021-ml">2021(A)</a>, <a href="/drp-2021-stat">2021(B)</a>. I also taught a mini-course on log-concave sampling as part of a workshop on the <a href="http://www.crm.sns.it/event/506/timetable.html#title">Mathematics of Machine Learning</a> at the Centro De Giorgi; the first video can be found <a href="https://www.youtube.com/watch?v=bsIPm4jEXPA">here</a>.</p>
-                <p>In 2016-2017, I won the <a href="https://www2.eecs.berkeley.edu/Students/Awards/13/">EECS Outstanding GSI/Distinguished GSI Award</a>.
+                <p><a href="/class-notes">Click here</a> to find the notes I took and courses I taught during my undergraduate and graduate studies.</p>
             </div>
         </div>
     </section>

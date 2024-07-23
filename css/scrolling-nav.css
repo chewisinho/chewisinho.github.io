@@ -78,17 +78,24 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+.other-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
 .research-section {
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .teaching-section {
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
