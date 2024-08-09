@@ -2,6 +2,56 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
+        "date": "August 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2304.02599",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://ieeexplore.ieee.org/document/10353203",
+            "name": "FOCS 2023"
+          },
+          {
+            "link": "https://dl.acm.org/doi/10.1145/3673651",
+            "name": "Journal of the ACM"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1zTImQBpHQTPo58gnq-_KhZJKR9pgJhlq/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/Chewi+24QueryLower.bib.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Query lower bounds for log-concave sampling"
+      },
+      {
+        "authors": "Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang",
+        "date": "July 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2112.12662",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v178/chewi22a.html",
+            "name": "COLT 2022 (Extended Abstract)"
+          },
+          {
+            "link": "https://link.springer.com/article/10.1007/s10208-024-09667-6",
+            "name": "Foundations of Computational Mathematics"
+          },
+          {
+            "link": "/bibs/chewietal2022lmcpoincare.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Analysis of Langevin Monte Carlo from Poincaré to log-Sobolev"
+      },
+      {
         "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
         "date": "July 2024",
         "links": [
@@ -197,29 +247,6 @@
         "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
       },
       {
-        "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
-        "date": "November 2023",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2304.02599",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://ieeexplore.ieee.org/document/10353203",
-            "name": "FOCS 2023"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1zTImQBpHQTPo58gnq-_KhZJKR9pgJhlq/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/Chewietal23QueryLower.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Query lower bounds for log-concave sampling"
-      },
-      {
         "authors": "Sinho Chewi",
         "date": "September 2023",
         "links": [
@@ -402,25 +429,6 @@
           }
         ],
         "title": "Variational inference via Wasserstein gradient flows"
-      },
-      {
-        "authors": "Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang",
-        "date": "July 2022",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2112.12662",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://proceedings.mlr.press/v178/chewi22a.html",
-            "name": "COLT 2022 (Extended Abstract)"
-          },
-          {
-            "link": "/bibs/chewietal2022lmcpoincare.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Analysis of Langevin Monte Carlo from Poincaré to log-Sobolev"
       },
       {
         "authors": "Yongxin Chen, Sinho Chewi, Adil Salim, and Andre Wibisono",
