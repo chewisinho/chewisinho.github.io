@@ -99,3 +99,9 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
+.course-section {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    text-align: left;
+    background: #fff;
+}
