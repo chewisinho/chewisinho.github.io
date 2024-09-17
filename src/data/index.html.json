@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Atsushi Nitanda, and Matthew Zhang",
+        "date": "September 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2409.10440",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/CheNitZha24LSI.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Uniform-in-N log-Sobolev inequality for the mean-field Langevin dynamics with convex energy"
+      },
+      {
         "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
         "date": "August 2024",
         "links": [
@@ -22,7 +37,7 @@
             "name": "Slides"
           },
           {
-            "link": "/bibs/Chewi+24QueryLower.bib.bib",
+            "link": "/bibs/Chewi+24QueryLower.bib",
             "name": ".bib"
           }
         ],
