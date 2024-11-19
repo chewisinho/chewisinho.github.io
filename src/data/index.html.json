@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi and Austin Stromme",
+        "date": "November 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2411.11415",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/CheStr24PL.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "The ballistic limit of the log-Sobolev constant equals the Polyak–Łojasiewicz constant"
+      },
+      {
         "authors": "Jason Altschuler and Sinho Chewi",
         "date": "October 2024",
         "links": [
