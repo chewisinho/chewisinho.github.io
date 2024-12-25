@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Jason Altschuler and Sinho Chewi",
+        "date": "December 2024",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2412.17997",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/AltChe24SCIII.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Shifted composition III: local error framework for KL divergence"
+      },
+      {
         "authors": "Sinho Chewi and Austin Stromme",
         "date": "November 2024",
         "links": [
