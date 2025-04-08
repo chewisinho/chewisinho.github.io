@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Alkis Kalavasis, Anay Mehrotra, and Omar Montasser",
+        "date": "April 2025",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2504.05161",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Che+25DDPM.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "DDPM score matching and distribution learning"
+      },
+      {
         "authors": "Jason Altschuler and Sinho Chewi",
         "date": "December 2024",
         "links": [
