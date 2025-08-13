@@ -2,6 +2,33 @@
   "research": {
     "publications": [
       {
+        "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
+        "date": "August 2025",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2312.02849",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v247/jiang24a.html",
+            "name": "COLT 2024"
+          },
+          {
+            "link": "https://link.springer.com/article/10.1007/s10208-025-09721-x",
+            "name": "Foundations of Computational Mathematics"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1IDH4o4cThDU23Osvo-LPikQ1ahAjn0q9/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/JiaChePoo24MFVI.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Algorithms for mean-field variational inference via polyhedral optimization in the Wasserstein space"
+      },
+      {
         "authors": "Sinho Chewi, Philippe Rigollet, and Yuling Yan",
         "date": "August 2025",
         "links": [
@@ -186,34 +213,11 @@
             "name": "Foundations of Computational Mathematics"
           },
           {
-            "link": "/bibs/chewietal2022lmcpoincare.bib",
+            "link": "/bibs/Chewi+22LMCCOLT.bib",
             "name": ".bib"
           }
         ],
         "title": "Analysis of Langevin Monte Carlo from Poincaré to log-Sobolev"
-      },
-      {
-        "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
-        "date": "July 2024",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2312.02849",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://proceedings.mlr.press/v247/jiang24a.html",
-            "name": "COLT 2024"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1IDH4o4cThDU23Osvo-LPikQ1ahAjn0q9/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/JiaChePoo24MFVI.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Algorithms for mean-field variational inference via polyhedral optimization in the Wasserstein space"
       },
       {
         "authors": "Nima Anari, Sinho Chewi, and Thuy-Duong Vuong",
