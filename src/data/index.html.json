@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Aram-Alexandre Pooladian, and Matthew Zhang",
+        "date": "November 2025",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2511.01154",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/ChePooZha25Stability.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Stability of the Kim–Milman flow map"
+      },
+      {
         "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
         "date": "August 2025",
         "links": [
