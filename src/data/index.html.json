@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Matthew Zhang, Stephen Huan, Jerry Huang, Nicholas Boffi, Sitan Chen, and Sinho Chewi",
+        "date": "November 2025",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2511.04844",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Zhang+25DDPM.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Sublinear iterations can suffice even for DDPMs"
+      },
+      {
         "authors": "Sinho Chewi, Aram-Alexandre Pooladian, and Matthew Zhang",
         "date": "November 2025",
         "links": [
