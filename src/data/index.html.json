@@ -2,6 +2,36 @@
   "research": {
     "publications": [
       {
+        "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
+        "date": "February 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.01338",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Chen+26HighAccDiffusion.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "High-accuracy sampling for diffusion models and log-concave distributions"
+      },
+      {
+        "authors": "Eric Regis and Sinho Chewi",
+        "date": "February 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.01480",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/RegChe26RodFlow.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Rod flow: a continuous-time model for gradient descent at the edge of stability"
+      },
+      {
         "authors": "Sinho Chewi, Philippe Rigollet, and Yuling Yan",
         "date": "December 2025",
         "links": [
