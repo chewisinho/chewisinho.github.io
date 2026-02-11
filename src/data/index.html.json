@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Zahra Kadkhodaie, Aram-Alexandre Pooladian, Sinho Chewi, and Eero Simoncelli",
+        "date": "February 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.09639",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Kad+26BDDM.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Blind denoising diffusion models and the blessings of dimensionality"
+      },
+      {
         "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
         "date": "February 2026",
         "links": [
