@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
+        "date": "February 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.14342",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Chen+26HighAccStoch.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "High-accuracy log-concave sampling with stochastic queries"
+      },
+      {
         "authors": "Zahra Kadkhodaie, Aram-Alexandre Pooladian, Sinho Chewi, and Eero Simoncelli",
         "date": "February 2026",
         "links": [
