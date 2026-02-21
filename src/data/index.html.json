@@ -2,6 +2,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Luca Ghafourpour, Sinho Chewi, Alessio Figalli, and Aram-Alexandre Pooladian",
+        "date": "February 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.17525",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://openreview.net/forum?id=lomAtGpQ6n",
+            "name": "AISTATS 2026"
+          },
+          {
+            "link": "/bibs/Gha+26VIRad.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Variational inference via radial transport"
+      },
+      {
         "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
         "date": "February 2026",
         "links": [
