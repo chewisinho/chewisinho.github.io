@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Ruixiao Wang, Xiaohong Chen, and Sinho Chewi",
+        "date": "February 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.22369",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/WanCheChe26Constrained.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Sampling from constrained Gibbs measures: with applications to high-dimensional Bayesian inference"
+      },
+      {
         "authors": "Luca Ghafourpour, Sinho Chewi, Alessio Figalli, and Aram-Alexandre Pooladian",
         "date": "February 2026",
         "links": [
