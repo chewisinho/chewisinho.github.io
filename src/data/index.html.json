@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Matthew Zhang, Jason Altschuler, and Sinho Chewi",
+        "date": "March 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2603.22741",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/ZhaAltChe26HMC.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Algorithmic warm starts for Hamiltonian Monte Carlo"
+      },
+      {
         "authors": "Ruixiao Wang, Xiaohong Chen, and Sinho Chewi",
         "date": "February 2026",
         "links": [
