@@ -2,6 +2,40 @@
   "research": {
     "publications": [
       {
+        "authors": "Eric Regis and Sinho Chewi",
+        "date": "May 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2605.06821",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/RegChe26RodAdam.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "A rod flow model for Adam at the edge of stability"
+      },
+      {
+        "authors": "Luca Ghafourpour, Sinho Chewi, Alessio Figalli, and Aram-Alexandre Pooladian",
+        "date": "May 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.17525",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://openreview.net/forum?id=lomAtGpQ6n",
+            "name": "AISTATS 2026"
+          },
+          {
+            "link": "/bibs/Gha+26VIRad.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Variational inference via radial transport"
+      },
+      {
         "authors": "Matthew Zhang, Jason Altschuler, and Sinho Chewi",
         "date": "March 2026",
         "links": [
@@ -30,25 +64,6 @@
           }
         ],
         "title": "Sampling from constrained Gibbs measures: with applications to high-dimensional Bayesian inference"
-      },
-      {
-        "authors": "Luca Ghafourpour, Sinho Chewi, Alessio Figalli, and Aram-Alexandre Pooladian",
-        "date": "February 2026",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2602.17525",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://openreview.net/forum?id=lomAtGpQ6n",
-            "name": "AISTATS 2026"
-          },
-          {
-            "link": "/bibs/Gha+26VIRad.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Variational inference via radial transport"
       },
       {
         "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
