@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Linghai Liu and Sinho Chewi",
+        "date": "May 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2605.12461",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/LiuChe26ProxGradSampling.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "A proximal gradient algorithm for composite log-concave sampling"
+      },
+      {
         "authors": "Eric Regis and Sinho Chewi",
         "date": "May 2026",
         "links": [
