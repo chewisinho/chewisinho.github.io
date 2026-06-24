@@ -2,6 +2,21 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Katharina Eichinger, and Aram-Alexandre Pooladian",
+        "date": "June 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2606.23383",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/CheEicPoo26KM.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Near-Lipschitz stability of the Kim–Milman flow map"
+      },
+      {
         "authors": "Jason Altschuler, Sinho Chewi, and Matthew Zhang",
         "date": "June 2026",
         "links": [
