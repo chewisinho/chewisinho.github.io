@@ -2,6 +2,56 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Alkis Kalavasis, Anay Mehrotra, and Omar Montasser",
+        "date": "June 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2504.05161",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://delta-workshop.github.io/",
+            "name": "ICLR 2025 DeLTa Workshop <b>(Best Short Paper Award)</b>"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v336/chewi26a.html",
+            "name": "COLT 2026"
+          },
+          {
+            "link": "https://youtu.be/tn89MqtvuVA?si=YFgsbewWL0wK9YUe&t=9367",
+            "name": "Deep Learning Theory Workshop @ RIKEN AIP (Video)"
+          },
+          {
+            "link": "https://drive.google.com/file/d/1WPvyp5JJBK4bTrhDs2Fh8D8sANIlHP8x/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/Che+26DDPM.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "DDPM score matching and distribution learning"
+      },
+      {
+        "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
+        "date": "June 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.14342",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://proceedings.mlr.press/v336/chen26g.html",
+            "name": "COLT 2026"
+          },
+          {
+            "link": "/bibs/Chen+26HighAccStoch.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "High-accuracy log-concave sampling with stochastic queries"
+      },
+      {
         "authors": "Sinho Chewi, Katharina Eichinger, and Aram-Alexandre Pooladian",
         "date": "June 2026",
         "links": [
@@ -90,6 +140,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://drive.google.com/file/d/1zxh5hpgiU9-EvO0i3cWzJ62s_v9drWP_/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
             "link": "/bibs/LiuChe26ProxGradSampling.bib",
             "name": ".bib"
           }
@@ -163,21 +217,6 @@
           }
         ],
         "title": "Sampling from constrained Gibbs measures: with applications to high-dimensional Bayesian inference"
-      },
-      {
-        "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
-        "date": "February 2026",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2602.14342",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/Chen+26HighAccStoch.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "High-accuracy log-concave sampling with stochastic queries"
       },
       {
         "authors": "Zahra Kadkhodaie, Aram-Alexandre Pooladian, Sinho Chewi, and Eero Simoncelli",
@@ -349,33 +388,6 @@
           }
         ],
         "title": "Algorithms for mean-field variational inference via polyhedral optimization in the Wasserstein space"
-      },
-      {
-        "authors": "Sinho Chewi, Alkis Kalavasis, Anay Mehrotra, and Omar Montasser",
-        "date": "April 2025",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2504.05161",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://delta-workshop.github.io/",
-            "name": "ICLR 2025 DeLTA Workshop <b>(Best Short Paper Award)</b>"
-          },
-          {
-            "link": "https://youtu.be/tn89MqtvuVA?si=YFgsbewWL0wK9YUe&t=9367",
-            "name": "Deep Learning Theory Workshop @ RIKEN AIP (Video)"
-          },
-          {
-            "link": "https://drive.google.com/file/d/1WPvyp5JJBK4bTrhDs2Fh8D8sANIlHP8x/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/Che+25DDPM.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "DDPM score matching and distribution learning"
       },
       {
         "authors": "Sinho Chewi and Austin Stromme",
