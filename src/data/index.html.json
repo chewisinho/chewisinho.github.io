@@ -2,6 +2,25 @@
   "research": {
     "publications": [
       {
+        "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
+        "date": "July 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2602.01338",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://icml.cc/virtual/2026/oral/71132",
+            "name": "ICML 2026 <b>(Outstanding Paper Award)</b>"
+          },
+          {
+            "link": "/bibs/Chen+26HighAccDiffusion.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "High-accuracy sampling for diffusion models and log-concave distributions"
+      },
+      {
         "authors": "Sinho Chewi, Alkis Kalavasis, Anay Mehrotra, and Omar Montasser",
         "date": "June 2026",
         "links": [
@@ -227,6 +246,10 @@
             "name": "arXiv"
           },
           {
+            "link": "https://fdgm-workshop.github.io/FDGM_ICML2026/",
+            "name": "ICML 2026 FoGen Workshop (Spotlight)"
+          },
+          {
             "link": "https://drive.google.com/file/d/1_oYx0F8RbJZk-_ynd4ct4vrX2X4f0Ty_/view?usp=sharing",
             "name": "Slides"
           },
@@ -236,21 +259,6 @@
           }
         ],
         "title": "Blind denoising diffusion models and the blessings of dimensionality"
-      },
-      {
-        "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
-        "date": "February 2026",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2602.01338",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/Chen+26HighAccDiffusion.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "High-accuracy sampling for diffusion models and log-concave distributions"
       },
       {
         "authors": "Eric Regis and Sinho Chewi",
