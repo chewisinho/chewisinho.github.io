@@ -2,6 +2,29 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Atsushi Nitanda, and Matthew Zhang",
+        "date": "July 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2409.10440",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://epubs.siam.org/doi/10.1137/24M1696068",
+            "name": "SIAM Journal on Mathematical Analysis"
+          },
+          {
+            "link": "https://drive.google.com/file/d/101eJTKvqXaomnPrbMyj3aDstRdCiqIOC/view?usp=sharing",
+            "name": "Slides"
+          },
+          {
+            "link": "/bibs/CheNitZha26LSI.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Uniform-in-N log-Sobolev inequality for the mean-field Langevin dynamics with convex energy"
+      },
+      {
         "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
         "date": "July 2026",
         "links": [
@@ -438,25 +461,6 @@
           }
         ],
         "title": "Shifted composition I: Harnack and reverse transport inequalities"
-      },
-      {
-        "authors": "Sinho Chewi, Atsushi Nitanda, and Matthew Zhang",
-        "date": "September 2024",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2409.10440",
-            "name": "arXiv"
-          },
-          {
-            "link": "https://drive.google.com/file/d/101eJTKvqXaomnPrbMyj3aDstRdCiqIOC/view?usp=sharing",
-            "name": "Slides"
-          },
-          {
-            "link": "/bibs/CheNitZha24LSI.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Uniform-in-N log-Sobolev inequality for the mean-field Langevin dynamics with convex energy"
       },
       {
         "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
