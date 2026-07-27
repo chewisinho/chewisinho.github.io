@@ -23,6 +23,75 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <style>
+      .publication-filter-panel
+      {
+        align-items: center;
+        background: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 16px 0 22px;
+        padding: 12px 14px;
+      }
+
+      .publication-filter-label
+      {
+        font-weight: 700;
+        margin-right: 2px;
+      }
+
+      .publication-filter-buttons
+      {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .publication-filter
+      {
+        background: #fff;
+        border: 1px solid #337ab7;
+        border-radius: 4px;
+        color: #337ab7;
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 1.4;
+        padding: 5px 10px;
+      }
+
+      .publication-filter:hover,
+      .publication-filter:focus
+      {
+        background: #eaf3f8;
+        color: #23527c;
+      }
+
+      .publication-filter.active,
+      .publication-filter.active:hover,
+      .publication-filter.active:focus
+      {
+        background: #337ab7;
+        color: #fff;
+      }
+
+      .publication-filter:focus
+      {
+        outline: 2px solid #23527c;
+        outline-offset: 2px;
+      }
+
+      @media (max-width: 767px)
+      {
+        .publication-filter-panel
+        {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -86,7 +155,7 @@
             <div class="row row-flex">
               <div class="col-sm-3"><img src="YalePhoto.jpg" width=100%></div>
               <div class="col-sm-9">
-                <p>I am an Assistant Professor of Statistics and Data Science at Yale University.</p>
+                <p>I am an Assistant Professor of Statistics and Data Science at Yale University. I work at the interface of optimal transport, optimization, and probability, with a particular focus on the theory of sampling. My work has been recognized with an <a href="https://algorithmiclearningtheory.org/alt2023/accepted-papers/">ALT 2023 Best Student Paper Award</a> and an <a href="https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/">ICML 2026 Outstanding Paper Award</a>.</p>
                 <p><b>Past Visits</b></p>
                 <p>I received my B.S. in Engineering Mathematics and Statistics from the University of California, Berkeley in 2018, and my PhD in Mathematics and Statistics from the Massachusetts Institute of Technology in 2023, advised by <a href="http://www-math.mit.edu/~rigollet/">Philippe Rigollet</a>. In Fall 2021, I participated in the Simons Institute program on <a href="https://simons.berkeley.edu/programs/gmos2021">Geometric Methods in Optimization and Sampling</a> and co-organized (with <a href="https://kjtian.github.io/">Kevin Tian</a>) a working group on the <a href="https://wiki.simons.berkeley.edu/doku.php?id=gmos21:start">complexity of sampling</a>. In Spring 2022, I visited <a href="https://www.jonathannilesweed.com/">Jonathan Niles-Weed</a> at New York University. In Summer 2022, I was a research intern at Microsoft Research, supervised by <a href="http://sbubeck.com/">Sébastien Bubeck</a> and <a href="https://adil-salim.github.io/">Adil Salim</a>. In Fall 2023 and Spring 2024, I was a postdoctoral researcher at the Institute for Advanced Study.</p>
               </div>
@@ -139,19 +208,32 @@
         <p>I am broadly interested in the mathematics of machine learning and statistics. My work focuses on the complexity of log-concave sampling (see my <a href="main.pdf">book draft</a> above), applications of optimal transport to probabilistic inference problems such as variational inference (<a href="https://arxiv.org/abs/2205.15902">Lambert et al. (2023)</a>; <a href="https://arxiv.org/abs/2304.05398">Diao et al. (2023)</a>; <a href="https://arxiv.org/abs/2312.02849">Jiang, Chewi, and Pooladian (2024)</a>), and theory for diffusion generative models (<a href="https://arxiv.org/abs/2209.11215">Chen et al. (2023)</a>; <a href="https://arxiv.org/abs/2504.05161">Chewi et al. (2025)</a>; <a href="https://arxiv.org/abs/2602.01338">Chen et al. (2026)</a>; <a href="https://arxiv.org/abs/2602.09639">Kadkhodaie et al. (2026)</a>).</p>
         <hr>
         <h4>Publications</h4>
-        <ul>
-          <li>
+        <div class="publication-filter-panel" aria-labelledby="publication-filter-label">
+          <span class="publication-filter-label" id="publication-filter-label">Filter by Tag:</span>
+          <div class="publication-filter-buttons" role="group" aria-label="Publication tags">
+            <button class="publication-filter" type="button" data-tag="Diffusion Models" aria-pressed="false">Diffusion Models</button>
+            <button class="publication-filter" type="button" data-tag="Functional Inequalities" aria-pressed="false">Functional Inequalities</button>
+            <button class="publication-filter" type="button" data-tag="Optimal Transport" aria-pressed="false">Optimal Transport</button>
+            <button class="publication-filter" type="button" data-tag="Optimization" aria-pressed="false">Optimization</button>
+            <button class="publication-filter" type="button" data-tag="Sampling" aria-pressed="false">Sampling</button>
+            <button class="publication-filter" type="button" data-tag="Variational Inference" aria-pressed="false">Variational Inference</button>
+            <button class="publication-filter" type="button" data-tag="Conference Paper" aria-pressed="false">Conference Paper</button>
+            <button class="publication-filter" type="button" data-tag="Journal Paper" aria-pressed="false">Journal Paper</button>
+          </div>
+        </div>
+        <ul id="publication-list">
+          <li class="publication-item" data-tags="Functional Inequalities|Journal Paper">
             <i>Uniform-in-N log-Sobolev inequality for the mean-field Langevin dynamics with convex energy</i>. Sinho Chewi, Atsushi Nitanda, and Matthew Zhang. July 2026. <a href="https://arxiv.org/abs/2409.10440">[arXiv]</a>
             <a href="https://epubs.siam.org/doi/10.1137/24M1696068">[SIAM Journal on Mathematical Analysis]</a>
             <a href="https://drive.google.com/file/d/101eJTKvqXaomnPrbMyj3aDstRdCiqIOC/view?usp=sharing">[Slides]</a>
             <a href="/bibs/CheNitZha26LSI.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Diffusion Models|Sampling|Conference Paper">
             <i>High-accuracy sampling for diffusion models and log-concave distributions</i>. Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin. July 2026. <a href="https://arxiv.org/abs/2602.01338">[arXiv]</a>
             <a href="https://icml.cc/virtual/2026/oral/71132">[ICML 2026 <b>(Outstanding Paper Award)</b>]</a>
             <a href="/bibs/Chen+26HighAccDiffusion.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Diffusion Models|Conference Paper">
             <i>DDPM score matching and distribution learning</i>. Sinho Chewi, Alkis Kalavasis, Anay Mehrotra, and Omar Montasser. June 2026. <a href="https://arxiv.org/abs/2504.05161">[arXiv]</a>
             <a href="https://delta-workshop.github.io/">[ICLR 2025 DeLTa Workshop <b>(Best Short Paper Award)</b>]</a>
             <a href="https://proceedings.mlr.press/v336/chewi26a.html">[COLT 2026]</a>
@@ -159,171 +241,171 @@
             <a href="https://drive.google.com/file/d/1WPvyp5JJBK4bTrhDs2Fh8D8sANIlHP8x/view?usp=sharing">[Slides]</a>
             <a href="/bibs/Che+26DDPM.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>High-accuracy log-concave sampling with stochastic queries</i>. Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin. June 2026. <a href="https://arxiv.org/abs/2602.14342">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v336/chen26g.html">[COLT 2026]</a>
             <a href="/bibs/Chen+26HighAccStoch.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Functional Inequalities|Optimal Transport">
             <i>Near-Lipschitz stability of the Kim–Milman flow map</i>. Sinho Chewi, Katharina Eichinger, and Aram-Alexandre Pooladian. June 2026. <a href="https://arxiv.org/abs/2606.23383">[arXiv]</a>
             <a href="/bibs/CheEicPoo26KM.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Shifted composition IV: toward ballistic acceleration for log-concave sampling</i>. Jason Altschuler, Sinho Chewi, and Matthew Zhang. June 2026. <a href="https://arxiv.org/abs/2506.23062">[arXiv]</a>
             <a href="https://dl.acm.org/doi/10.1145/3798129.3800881">[STOC 2026]</a>
             <a href="https://drive.google.com/file/d/1cVCEMEZpTjjtyHebTQ_KrxGN3asrMxz2/view?usp=sharing">[Slides]</a>
             <a href="/bibs/AltCheZha26SCIV.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Journal Paper">
             <i>Shifted composition III: local error framework for KL divergence</i>. Jason Altschuler and Sinho Chewi. June 2026. <a href="https://arxiv.org/abs/2412.17997">[arXiv]</a>
             <a href="https://link.springer.com/article/10.1007/s10208-026-09753-x">[Foundations of Computational Mathematics]</a>
             <a href="https://www.youtube.com/watch?v=aKSWRTn4-qM">[Online Monte Carlo Seminar (Video)]</a>
             <a href="https://drive.google.com/file/d/1YLTriBk5BP8QIlHuIpDDpDGtsTx3HcUz/view?usp=sharing">[Slides]</a>
             <a href="/bibs/AltChe26SCIII.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling">
             <i>Complexity of non-log-concave sampling in Fisher information</i>. Sinho Chewi and Andre Wibisono. May 2026. <a href="https://arxiv.org/abs/2605.15859">[arXiv]</a>
             <a href="/bibs/CheWib26FI.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling">
             <i>A proximal gradient algorithm for composite log-concave sampling</i>. Linghai Liu and Sinho Chewi. May 2026. <a href="https://arxiv.org/abs/2605.12461">[arXiv]</a>
             <a href="https://drive.google.com/file/d/1zxh5hpgiU9-EvO0i3cWzJ62s_v9drWP_/view?usp=sharing">[Slides]</a>
             <a href="/bibs/LiuChe26ProxGradSampling.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimization">
             <i>A rod flow model for Adam at the edge of stability</i>. Eric Regis and Sinho Chewi. May 2026. <a href="https://arxiv.org/abs/2605.06821">[arXiv]</a>
             <a href="/bibs/RegChe26RodAdam.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Variational Inference|Optimal Transport|Conference Paper">
             <i>Variational inference via radial transport</i>. Luca Ghafourpour, Sinho Chewi, Alessio Figalli, and Aram-Alexandre Pooladian. May 2026. <a href="https://arxiv.org/abs/2602.17525">[arXiv]</a>
             <a href="https://openreview.net/forum?id=lomAtGpQ6n">[AISTATS 2026]</a>
             <a href="/bibs/Gha+26VIRad.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling">
             <i>Algorithmic warm starts for Hamiltonian Monte Carlo</i>. Matthew Zhang, Jason Altschuler, and Sinho Chewi. March 2026. <a href="https://arxiv.org/abs/2603.22741">[arXiv]</a>
             <a href="https://drive.google.com/file/d/162OXDrs_cfYkclrQrfeVRLXcZmSnEnLS/view?usp=sharing">[Slides]</a>
             <a href="/bibs/ZhaAltChe26HMC.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling">
             <i>Sampling from constrained Gibbs measures: with applications to high-dimensional Bayesian inference</i>. Ruixiao Wang, Xiaohong Chen, and Sinho Chewi. February 2026. <a href="https://arxiv.org/abs/2602.22369">[arXiv]</a>
             <a href="/bibs/WanCheChe26Constrained.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Diffusion Models">
             <i>Blind denoising diffusion models and the blessings of dimensionality</i>. Zahra Kadkhodaie, Aram-Alexandre Pooladian, Sinho Chewi, and Eero Simoncelli. February 2026. <a href="https://arxiv.org/abs/2602.09639">[arXiv]</a>
             <a href="https://fdgm-workshop.github.io/FDGM_ICML2026/">[ICML 2026 FoGen Workshop (Spotlight)]</a>
             <a href="https://drive.google.com/file/d/1_oYx0F8RbJZk-_ynd4ct4vrX2X4f0Ty_/view?usp=sharing">[Slides]</a>
             <a href="/bibs/Kad+26BDDM.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimization">
             <i>Rod flow: a continuous-time model for gradient descent at the edge of stability</i>. Eric Regis and Sinho Chewi. February 2026. <a href="https://arxiv.org/abs/2602.01480">[arXiv]</a>
             <a href="/bibs/RegChe26RodFlow.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Journal Paper">
             <i>Gaussian mixture layers for neural networks</i>. Sinho Chewi, Philippe Rigollet, and Yuling Yan. December 2025. <a href="https://arxiv.org/abs/2508.04883">[arXiv]</a>
             <a href="https://openreview.net/forum?id=sAptI2o5cP">[TMLR]</a>
             <a href="/bibs/CheRigYan25GMMNN.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimal Transport|Variational Inference">
             <i>Theory and computation for structured variational inference</i>. Shunan Sheng, Bohan Wu, Bennett Zhu, Sinho Chewi, and Aram-Alexandre Pooladian. November 2025. <a href="https://arxiv.org/abs/2511.09897">[arXiv]</a>
             <a href="/bibs/Sheng+25SSVI.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Functional Inequalities|Journal Paper">
             <i>Shifted composition II: shift Harnack inequalities and curvature upper bounds</i>. Jason Altschuler and Sinho Chewi. November 2025. <a href="https://arxiv.org/abs/2401.00071">[arXiv]</a>
             <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/664602">[IZS 2024]</a>
             <a href="https://ieeexplore.ieee.org/document/11240222">[IEEE Transactions on Information Theory]</a>
             <a href="https://drive.google.com/file/d/16nB9L5zFaFkXRjgIL_hcpY850LCoE_x3/view?usp=sharing">[Slides]</a>
             <a href="/bibs/AltChe26SCII.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Diffusion Models">
             <i>Sublinear iterations can suffice even for DDPMs</i>. Matthew Zhang, Stephen Huan, Jerry Huang, Nicholas Boffi, Sitan Chen, and Sinho Chewi. November 2025. <a href="https://arxiv.org/abs/2511.04844">[arXiv]</a>
             <a href="https://drive.google.com/file/d/1DERi1MPCAorJueVbj2wRwvjj7lz4O-gP/view?usp=sharing">[Slides]</a>
             <a href="/bibs/Zhang+25DDPM.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Functional Inequalities|Optimal Transport">
             <i>Stability of the Kim–Milman flow map</i>. Sinho Chewi, Aram-Alexandre Pooladian, and Matthew Zhang. November 2025. <a href="https://arxiv.org/abs/2511.01154">[arXiv]</a>
             <a href="/bibs/ChePooZha25Stability.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Variational Inference|Optimal Transport|Optimization|Conference Paper|Journal Paper">
             <i>Algorithms for mean-field variational inference via polyhedral optimization in the Wasserstein space</i>. Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian. August 2025. <a href="https://arxiv.org/abs/2312.02849">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v247/jiang24a.html">[COLT 2024]</a>
             <a href="https://link.springer.com/article/10.1007/s10208-025-09721-x">[Foundations of Computational Mathematics]</a>
             <a href="https://drive.google.com/file/d/1IDH4o4cThDU23Osvo-LPikQ1ahAjn0q9/view?usp=sharing">[Slides]</a>
             <a href="/bibs/JiaChePoo24MFVI.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Functional Inequalities">
             <i>The ballistic limit of the log-Sobolev constant equals the Polyak–Łojasiewicz constant</i>. Sinho Chewi and Austin Stromme. November 2024. <a href="https://arxiv.org/abs/2411.11415">[arXiv]</a>
             <a href="/bibs/CheStr24PL.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Functional Inequalities|Journal Paper">
             <i>Shifted composition I: Harnack and reverse transport inequalities</i>. Jason Altschuler and Sinho Chewi. October 2024. <a href="https://arxiv.org/abs/2311.14520">[arXiv]</a>
             <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/664602">[IZS 2024]</a>
             <a href="https://ieeexplore.ieee.org/document/10706129">[IEEE Transactions on Information Theory]</a>
             <a href="https://drive.google.com/file/d/16nB9L5zFaFkXRjgIL_hcpY850LCoE_x3/view?usp=sharing">[Slides]</a>
             <a href="/bibs/AltChe24SCI.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper|Journal Paper">
             <i>Query lower bounds for log-concave sampling</i>. Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan. August 2024. <a href="https://arxiv.org/abs/2304.02599">[arXiv]</a>
             <a href="https://ieeexplore.ieee.org/document/10353203">[FOCS 2023]</a>
             <a href="https://dl.acm.org/doi/10.1145/3673651">[Journal of the ACM]</a>
             <a href="https://drive.google.com/file/d/1zTImQBpHQTPo58gnq-_KhZJKR9pgJhlq/view?usp=sharing">[Slides]</a>
             <a href="/bibs/Chewi+24QueryLower.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper|Journal Paper">
             <i>Analysis of Langevin Monte Carlo from Poincaré to log-Sobolev</i>. Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang. July 2024. <a href="https://arxiv.org/abs/2112.12662">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v178/chewi22a.html">[COLT 2022 (Extended Abstract)]</a>
             <a href="https://link.springer.com/article/10.1007/s10208-024-09667-6">[Foundations of Computational Mathematics]</a>
             <a href="/bibs/Chewi+22LMCCOLT.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Fast parallel sampling under isoperimetry</i>. Nima Anari, Sinho Chewi, and Thuy-Duong Vuong. July 2024. <a href="https://arxiv.org/abs/2401.09016">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v247/anari24a.html">[COLT 2024]</a>
             <a href="bibs/AnaCheVuo24Parallel.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Sampling from the mean-field stationary distribution</i>. Yunbum Kook, Matthew Zhang, Sinho Chewi, Murat Erdogdu, and Mufan Li. July 2024. <a href="https://arxiv.org/abs/2402.07355">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v247/kook24a.html">[COLT 2024]</a>
             <a href="bibs/Kook+24SamplingMeanField.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper|Journal Paper">
             <i>Faster high-accuracy log-concave sampling via algorithmic warm starts</i>. Jason Altschuler and Sinho Chewi. June 2024. <a href="https://arxiv.org/abs/2302.10249">[arXiv]</a>
             <a href="https://ieeexplore.ieee.org/document/10353093">[FOCS 2023]</a>
             <a href="https://dl.acm.org/doi/10.1145/3653446">[Journal of the ACM]</a>
             <a href="https://drive.google.com/file/d/1tZmOzog8S6mrh2sY_Uh4UZKqI17D-whP/view?usp=sharing">[Slides]</a>
             <a href="/bibs/AltChe23Warm.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimization|Conference Paper">
             <i>Learning threshold neurons via the "edge of stability"</i>. Kwangjun Ahn, Sébastien Bubeck, Sinho Chewi, Yin Tat Lee, Felipe Suárez-Colmenares, and Yi Zhang. December 2023. <a href="https://arxiv.org/abs/2212.07469">[arXiv]</a>
             <a href="https://papers.nips.cc/paper_files/paper/2023/hash/3e592c571de69a43d7a870ea89c7e33a-Abstract-Conference.html">[NeurIPS 2023]</a>
             <a href="/bibs/Ahn+23ThresholdEoS.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Diffusion Models|Conference Paper">
             <i>The probability flow ODE is provably fast</i>. Sitan Chen, Sinho Chewi, Holden Lee, Yuanzhi Li, Jianfeng Lu, and Adil Salim. December 2023. <a href="https://arxiv.org/abs/2305.11798">[arXiv]</a>
             <a href="https://papers.nips.cc/paper_files/paper/2023/hash/d84a27ff694345aacc21c72097a69ea2-Abstract-Conference.html">[NeurIPS 2023]</a>
             <a href="https://drive.google.com/file/d/1l78u-1QMmsIJeDTR7BAcoeh4AJ5HwlHK/view?usp=share_link">[Slides]</a>
             <a href="/bibs/Chen+23FlowODE.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimal Transport|Functional Inequalities|Journal Paper">
             <i>An entropic generalization of Caffarelli's contraction theorem via covariance inequalities</i>. Sinho Chewi and Aram-Alexandre Pooladian. November 2023. <a href="https://arxiv.org/abs/2203.04954">[arXiv]</a>
             <a href="https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.486/">[Comptes Rendus Mathématique]</a>
             <a href="/bibs/ChePoo23Caffarelli.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Functional Inequalities|Optimization|Journal Paper">
             <i>The entropic barrier is n-self-concordant</i>. Sinho Chewi. September 2023. <a href="https://arxiv.org/abs/2112.10947">[arXiv]</a>
             <a href="https://link.springer.com/chapter/10.1007/978-3-031-26300-2_6">[GAFA Seminar Notes]</a>
             <a href="/bibs/Chewi23EntropicBarrier.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Variational Inference|Optimal Transport|Optimization|Conference Paper">
             <i>Forward-backward Gaussian variational inference via JKO in the Bures–Wasserstein space</i>. Michael Diao, Krishnakumar Balasubramanian, Sinho Chewi, and Adil Salim. July 2023. <a href="https://arxiv.org/abs/2304.05398">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v202/diao23a.html">[ICML 2023]</a>
             <a href="https://drive.google.com/file/d/1px0QnR1DZsY4phl323uBqP-D2hwzgT54/view?usp=sharing">[Slides]</a>
             <a href="/bibs/Diaoetal23FBGVI.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Improved discretization analysis for underdamped Langevin Monte Carlo</i>. Matthew Zhang, Sinho Chewi, Mufan Li, Krishnakumar Balasubramanian, and Murat Erdogdu. July 2023. <a href="https://arxiv.org/abs/2302.08049">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v195/zhang23a.html">[COLT 2023]</a>
             <a href="/bibs/Zhangetal23ULMC.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Diffusion Models|Conference Paper">
             <i>Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions</i>. Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang. May 2023. <a href="https://arxiv.org/abs/2209.11215">[arXiv]</a>
             <a href="https://neurips.cc/virtual/2022/workshop/49976">[NeurIPS 2022 Workshop on Score-Based Methods]</a>
             <a href="https://openreview.net/forum?id=zyLVMgsZ0U_">[ICLR 2023 <b>(Notable Top 5%)</b>]</a>
@@ -332,23 +414,23 @@
             <a href="https://drive.google.com/file/d/1BZIo6lbPOPowdgmPpJJ-2t-LLkfG_Zlw/view?usp=share_link">[Slides]</a>
             <a href="/bibs/chenetal2023diffusionmodels.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Fisher information lower bounds for sampling</i>. Sinho Chewi, Patrik Gerber, Holden Lee, and Chen Lu. February 2023. <a href="https://arxiv.org/abs/2210.02482">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v201/chewi23b.html">[ALT 2023]</a>
             <a href="https://drive.google.com/file/d/1TVPY8tAz6QxhGSu_Z-im-jb_U5iaiFfu/view?usp=share_link">[Slides]</a>
             <a href="/bibs/chewietal2023fisherinfo.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimization|Conference Paper">
             <i>On the complexity of finding stationary points of smooth functions in one dimension</i>. Sinho Chewi, Sébastien Bubeck, and Adil Salim. February 2023. <a href="https://arxiv.org/abs/2209.07513">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v201/chewi23a.html">[ALT 2023 <b>(Best Student Paper)</b>]</a>
             <a href="/bibs/chewibubecksalim2023stationary.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Journal Paper">
             <i>Gaussian discrepancy: a probabilistic relaxation of vector balancing</i>. Sinho Chewi, Patrik Gerber, Philippe Rigollet, and Paxton Turner. December 2022. <a href="https://arxiv.org/abs/2109.08280">[arXiv]</a>
             <a href="https://www.sciencedirect.com/science/article/pii/S0166218X22002992">[Discrete Applied Mathematics]</a>
             <a href="/bibs/chewietal2022disc.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Variational Inference|Optimal Transport|Optimization|Conference Paper">
             <i>Variational inference via Wasserstein gradient flows</i>. Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet. December 2022. <a href="https://arxiv.org/abs/2205.15902">[arXiv]</a>
             <a href="https://nips.cc/virtual/2022/poster/55021">[NeurIPS 2022]</a>
             <a href="https://drive.google.com/file/d/1S6QYYvzCh6sQh0FHj4u72pcDJXfa-aAM/view?usp=sharing">[UMass Amherst Reading Seminar on Mathematics of Machine Learning (Video)]</a>
@@ -356,7 +438,7 @@
             <a href="https://drive.google.com/file/d/1WuYphv2Y3GWXhkl7ote1HOdWaApjjDtZ/view?usp=sharing">[Slides]</a>
             <a href="/bibs/lambertetal2022viwgf.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Improved analysis for a proximal algorithm for sampling</i>. Yongxin Chen, Sinho Chewi, Adil Salim, and Andre Wibisono. July 2022. <a href="https://arxiv.org/abs/2202.06386">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v178/chen22c.html">[COLT 2022]</a>
             <a href="https://slideslive.com/38985646">[COLT 2022 (Video)]</a>
@@ -364,42 +446,42 @@
             <a href="https://drive.google.com/file/d/1-cgv-BDXsNrGyrlMa6StZodIsNEw1XLB/view?usp=sharing">[Slides]</a>
             <a href="/bibs/chenetal2022proximalsampler.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>The query complexity of sampling from strongly log-concave distributions in one dimension</i>. Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet. July 2022. <a href="https://arxiv.org/abs/2105.14163">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v178/chewi22b.html">[COLT 2022]</a>
             <a href="/bibs/chewietal2022logconcave1d.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Towards a theory of non-log-concave sampling: first-order stationarity guarantees for Langevin Monte Carlo</i>. Krishnakumar Balasubramanian, Sinho Chewi, Murat Erdogdu, Adil Salim, and Matthew Zhang. July 2022. <a href="https://arxiv.org/abs/2202.05214">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v178/balasubramanian22a.html">[COLT 2022]</a>
             <a href="https://drive.google.com/file/d/1TVPY8tAz6QxhGSu_Z-im-jb_U5iaiFfu/view?usp=share_link">[Slides]</a>
             <a href="/bibs/balasubramanianetal2022nonlogconcave.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Rejection sampling from shape-constrained distributions in sublinear time</i>. Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet. March 2022. <a href="https://arxiv.org/abs/2105.14166">[arXiv]</a>
             <a href="https://proceedings.mlr.press/v151/chewi22a.html">[AISTATS 2022]</a>
             <a href="/bibs/chewietal2022rejection.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimal Transport|Optimization|Conference Paper">
             <i>Averaging on the Bures–Wasserstein manifold: dimension-free convergence of gradient descent</i>. Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme. December 2021. <a href="https://arxiv.org/abs/2106.08502">[arXiv]</a>
             <a href="https://neurips.cc/virtual/2021/spotlight/27139">[NeurIPS 2021 <b>(Spotlight)</b>]</a>
             <a href="https://neurips.cc/virtual/2021/poster/27138">[NeurIPS 2021 (Video)]</a>
             <a href="https://drive.google.com/file/d/1z30ZfAGpbHUWsh-2zbolGbkE8cbrqFng/view?usp=sharing">[Slides]</a>
             <a href="/bibs/altschuleretal2021bwbarycenter.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Efficient constrained sampling via the mirror-Langevin algorithm</i>. Kwangjun Ahn and Sinho Chewi. December 2021. <a href="https://arxiv.org/abs/2010.16212">[arXiv]</a>
             <a href="https://neurips.cc/virtual/2021/poster/28852">[NeurIPS 2021]</a>
             <a href="https://drive.google.com/file/d/1tl8fyiIwJzoevP1VA_tbaeydfOciJkom/view?usp=sharing">[Poster]</a>
             <a href="/bibs/ahnchewi2021mirrorlangevin.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Functional Inequalities|Journal Paper">
             <i>Dimension-free log-Sobolev inequalities for mixture distributions</i>. Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed. December 2021. <a href="https://arxiv.org/abs/2102.11476">[arXiv]</a>
             <a href="https://www.sciencedirect.com/science/article/pii/S0022123621003189">[Journal of Functional Analysis]</a>
             <a href="https://drive.google.com/file/d/1K2eLQWtPtwuM6wBgRhD0OeG4nh6rI9Pb/view?usp=sharing">[Slides]</a>
             <a href="/bibs/chenchewinilesweed2021dimfreelsi.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm</i>. Sinho Chewi, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet. August 2021. <a href="https://arxiv.org/abs/2012.12810">[arXiv]</a>
             <a href="http://www.learningtheory.org/colt2021/virtual/poster_7.html">[COLT 2021]</a>
             <a href="https://simons.berkeley.edu/talks/improved-dimension-dependence-metropolis-adjusted-langevin-algorithm-and-lower-bounds-sampling">[Sampling Algorithms and Geometries on Probability Distributions (Video)]</a>
@@ -407,24 +489,24 @@
             <a href="https://drive.google.com/file/d/1jv7wOl0eMzOes9dZuU4AZvQqo_S3W2LF/view?usp=sharing">[Slides]</a>
             <a href="/bibs/chewietal2021mala.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimal Transport|Conference Paper">
             <i>Fast and smooth interpolation on Wasserstein space</i>. Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme. March 2021. <a href="https://arxiv.org/abs/2010.12101">[arXiv]</a>
             <a href="http://proceedings.mlr.press/v130/chewi21a.html">[AISTATS 2021]</a>
             <a href="/bibs/chewietal2021splines.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Sampling|Conference Paper">
             <i>Exponential ergodicity of mirror-Langevin diffusions</i>. Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme. December 2020. <a href="https://arxiv.org/abs/2005.09669">[arXiv]</a>
             <a href="https://proceedings.neurips.cc/paper/2020/hash/e3251075554389fe91d17a794861d47b-Abstract.html">[NeurIPS 2020]</a>
             <a href="https://drive.google.com/file/d/1U0U49V1sdNLYoUlJmSh0X8ELYK2afnfH/view?usp=sharing">[Slides]</a>
             <a href="/bibs/chewietal2020mirrorlangevin.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Variational Inference|Optimal Transport|Conference Paper">
             <i>SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence</i>. Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet. December 2020. <a href="https://arxiv.org/abs/2006.02509">[arXiv]</a>
             <a href="https://proceedings.neurips.cc/paper/2020/hash/16f8e136ee5693823268874e58795216-Abstract.html">[NeurIPS 2020]</a>
             <a href="https://drive.google.com/file/d/1X74ZwK2tU4Mcm2rRUv8JbitsZKge-VoM/view?usp=sharing">[Slides]</a>
             <a href="/bibs/chewietal2020svgd.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Optimal Transport|Optimization|Conference Paper">
             <i>Gradient descent algorithms for Bures–Wasserstein barycenters</i>. Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme. July 2020. <a href="https://arxiv.org/abs/2001.01700">[arXiv]</a>
             <a href="https://www.colt2020.org/virtual/papers/paper_28.html">[COLT 2020]</a>
             <a href="https://www.colt2020.org/virtual/papers/paper_28.html">[COLT 2020 (Video)]</a>
@@ -433,12 +515,12 @@
             <a href="https://drive.google.com/open?id=1K3eu3aJ4kQsNi3v6q5SHiNZdkKgvKBBM">[Slides]</a>
             <a href="/bibs/chewietal2020buresgd.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Conference Paper">
             <i>Matching observations to distributions: efficient estimation via sparsified Hungarian algorithm</i>. Sinho Chewi, Forest Yang, Avishek Ghosh, Abhay Parekh, and Kannan Ramchandran. September 2019. <a href="https://arxiv.org/abs/1806.06766">[arXiv]</a>
             <a href="https://ieeexplore.ieee.org/document/8919825">[Allerton 2019]</a>
             <a href="/bibs/chewietal2019hungarian.bib">[.bib]</a>
           </li>
-          <li>
+          <li class="publication-item" data-tags="Journal Paper">
             <i>A combinatorial proof of a formula of Biane and Chapuy</i>. Sinho Chewi and Venkat Anantharam. March 2018. <a href="https://arxiv.org/abs/1705.10925">[arXiv]</a>
             <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p58">[E-JC]</a>
             <a href="/bibs/chewianantharam2017bianechapuy.bib">[.bib]</a>
@@ -489,5 +571,50 @@
         </div>
       </div>
     </section>
+    <script>
+      (function()
+      {
+        var buttons = Array.prototype.slice.call(document.querySelectorAll(".publication-filter"));
+        var publications = Array.prototype.slice.call(document.querySelectorAll(".publication-item"));
+        var activeTags = [];
+
+        function applyFilters()
+        {
+          publications.forEach(function(publication)
+          {
+            var tags = (publication.getAttribute("data-tags") || "").split("|");
+            var visible = activeTags.length === 0 || activeTags.every(function(tag)
+            {
+              return tags.indexOf(tag) !== -1;
+            });
+            publication.hidden = !visible;
+          });
+          buttons.forEach(function(button)
+          {
+            var active = activeTags.indexOf(button.getAttribute("data-tag")) !== -1;
+            button.classList.toggle("active", active);
+            button.setAttribute("aria-pressed", active ? "true" : "false");
+          });
+        }
+        buttons.forEach(function(button)
+        {
+          button.addEventListener("click", function()
+          {
+            var tag = button.getAttribute("data-tag");
+            var index = activeTags.indexOf(tag);
+            if (index === -1)
+            {
+              activeTags.push(tag);
+            }
+            else
+            {
+              activeTags.splice(index, 1);
+            }
+            applyFilters();
+          });
+        });
+        applyFilters();
+      })();
+    </script>
   </body>
 </html>

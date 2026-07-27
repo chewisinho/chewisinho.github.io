@@ -1,4 +1,14 @@
 {
+  "tag_labels": [
+    "Diffusion Models",
+    "Functional Inequalities",
+    "Optimal Transport",
+    "Optimization",
+    "Sampling",
+    "Variational Inference",
+    "Conference Paper",
+    "Journal Paper"
+  ],
   "research": {
     "publications": [
       {
@@ -22,7 +32,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Uniform-in-N log-Sobolev inequality for the mean-field Langevin dynamics with convex energy"
+        "title": "Uniform-in-N log-Sobolev inequality for the mean-field Langevin dynamics with convex energy",
+        "tags": [
+          "Functional Inequalities",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
@@ -41,7 +55,12 @@
             "name": ".bib"
           }
         ],
-        "title": "High-accuracy sampling for diffusion models and log-concave distributions"
+        "title": "High-accuracy sampling for diffusion models and log-concave distributions",
+        "tags": [
+          "Diffusion Models",
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Alkis Kalavasis, Anay Mehrotra, and Omar Montasser",
@@ -72,7 +91,11 @@
             "name": ".bib"
           }
         ],
-        "title": "DDPM score matching and distribution learning"
+        "title": "DDPM score matching and distribution learning",
+        "tags": [
+          "Diffusion Models",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, and Alexander Rakhlin",
@@ -91,7 +114,11 @@
             "name": ".bib"
           }
         ],
-        "title": "High-accuracy log-concave sampling with stochastic queries"
+        "title": "High-accuracy log-concave sampling with stochastic queries",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Katharina Eichinger, and Aram-Alexandre Pooladian",
@@ -106,7 +133,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Near-Lipschitz stability of the Kim–Milman flow map"
+        "title": "Near-Lipschitz stability of the Kim–Milman flow map",
+        "tags": [
+          "Functional Inequalities",
+          "Optimal Transport"
+        ]
       },
       {
         "authors": "Jason Altschuler, Sinho Chewi, and Matthew Zhang",
@@ -129,7 +160,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Shifted composition IV: toward ballistic acceleration for log-concave sampling"
+        "title": "Shifted composition IV: toward ballistic acceleration for log-concave sampling",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Jason Altschuler and Sinho Chewi",
@@ -156,7 +191,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Shifted composition III: local error framework for KL divergence"
+        "title": "Shifted composition III: local error framework for KL divergence",
+        "tags": [
+          "Sampling",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi and Andre Wibisono",
@@ -171,7 +210,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Complexity of non-log-concave sampling in Fisher information"
+        "title": "Complexity of non-log-concave sampling in Fisher information",
+        "tags": [
+          "Sampling"
+        ]
       },
       {
         "authors": "Linghai Liu and Sinho Chewi",
@@ -190,7 +232,10 @@
             "name": ".bib"
           }
         ],
-        "title": "A proximal gradient algorithm for composite log-concave sampling"
+        "title": "A proximal gradient algorithm for composite log-concave sampling",
+        "tags": [
+          "Sampling"
+        ]
       },
       {
         "authors": "Eric Regis and Sinho Chewi",
@@ -205,7 +250,10 @@
             "name": ".bib"
           }
         ],
-        "title": "A rod flow model for Adam at the edge of stability"
+        "title": "A rod flow model for Adam at the edge of stability",
+        "tags": [
+          "Optimization"
+        ]
       },
       {
         "authors": "Luca Ghafourpour, Sinho Chewi, Alessio Figalli, and Aram-Alexandre Pooladian",
@@ -224,7 +272,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Variational inference via radial transport"
+        "title": "Variational inference via radial transport",
+        "tags": [
+          "Variational Inference",
+          "Optimal Transport",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Matthew Zhang, Jason Altschuler, and Sinho Chewi",
@@ -243,7 +296,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Algorithmic warm starts for Hamiltonian Monte Carlo"
+        "title": "Algorithmic warm starts for Hamiltonian Monte Carlo",
+        "tags": [
+          "Sampling"
+        ]
       },
       {
         "authors": "Ruixiao Wang, Xiaohong Chen, and Sinho Chewi",
@@ -258,7 +314,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Sampling from constrained Gibbs measures: with applications to high-dimensional Bayesian inference"
+        "title": "Sampling from constrained Gibbs measures: with applications to high-dimensional Bayesian inference",
+        "tags": [
+          "Sampling"
+        ]
       },
       {
         "authors": "Zahra Kadkhodaie, Aram-Alexandre Pooladian, Sinho Chewi, and Eero Simoncelli",
@@ -281,7 +340,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Blind denoising diffusion models and the blessings of dimensionality"
+        "title": "Blind denoising diffusion models and the blessings of dimensionality",
+        "tags": [
+          "Diffusion Models"
+        ]
       },
       {
         "authors": "Eric Regis and Sinho Chewi",
@@ -296,7 +358,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Rod flow: a continuous-time model for gradient descent at the edge of stability"
+        "title": "Rod flow: a continuous-time model for gradient descent at the edge of stability",
+        "tags": [
+          "Optimization"
+        ]
       },
       {
         "authors": "Sinho Chewi, Philippe Rigollet, and Yuling Yan",
@@ -315,7 +380,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Gaussian mixture layers for neural networks"
+        "title": "Gaussian mixture layers for neural networks",
+        "tags": [
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Shunan Sheng, Bohan Wu, Bennett Zhu, Sinho Chewi, and Aram-Alexandre Pooladian",
@@ -330,7 +398,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Theory and computation for structured variational inference"
+        "title": "Theory and computation for structured variational inference",
+        "tags": [
+          "Optimal Transport",
+          "Variational Inference"
+        ]
       },
       {
         "authors": "Jason Altschuler and Sinho Chewi",
@@ -357,7 +429,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Shifted composition II: shift Harnack inequalities and curvature upper bounds"
+        "title": "Shifted composition II: shift Harnack inequalities and curvature upper bounds",
+        "tags": [
+          "Functional Inequalities",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Matthew Zhang, Stephen Huan, Jerry Huang, Nicholas Boffi, Sitan Chen, and Sinho Chewi",
@@ -376,7 +452,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Sublinear iterations can suffice even for DDPMs"
+        "title": "Sublinear iterations can suffice even for DDPMs",
+        "tags": [
+          "Diffusion Models"
+        ]
       },
       {
         "authors": "Sinho Chewi, Aram-Alexandre Pooladian, and Matthew Zhang",
@@ -391,7 +470,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Stability of the Kim–Milman flow map"
+        "title": "Stability of the Kim–Milman flow map",
+        "tags": [
+          "Functional Inequalities",
+          "Optimal Transport"
+        ]
       },
       {
         "authors": "Yiheng Jiang, Sinho Chewi, and Aram-Alexandre Pooladian",
@@ -418,7 +501,14 @@
             "name": ".bib"
           }
         ],
-        "title": "Algorithms for mean-field variational inference via polyhedral optimization in the Wasserstein space"
+        "title": "Algorithms for mean-field variational inference via polyhedral optimization in the Wasserstein space",
+        "tags": [
+          "Variational Inference",
+          "Optimal Transport",
+          "Optimization",
+          "Conference Paper",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi and Austin Stromme",
@@ -433,7 +523,10 @@
             "name": ".bib"
           }
         ],
-        "title": "The ballistic limit of the log-Sobolev constant equals the Polyak–Łojasiewicz constant"
+        "title": "The ballistic limit of the log-Sobolev constant equals the Polyak–Łojasiewicz constant",
+        "tags": [
+          "Functional Inequalities"
+        ]
       },
       {
         "authors": "Jason Altschuler and Sinho Chewi",
@@ -460,7 +553,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Shifted composition I: Harnack and reverse transport inequalities"
+        "title": "Shifted composition I: Harnack and reverse transport inequalities",
+        "tags": [
+          "Sampling",
+          "Functional Inequalities",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, and Shyam Narayanan",
@@ -487,7 +585,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Query lower bounds for log-concave sampling"
+        "title": "Query lower bounds for log-concave sampling",
+        "tags": [
+          "Sampling",
+          "Conference Paper",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Murat Erdogdu, Mufan Li, Ruoqi Shen, and Matthew Zhang",
@@ -510,7 +613,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Analysis of Langevin Monte Carlo from Poincaré to log-Sobolev"
+        "title": "Analysis of Langevin Monte Carlo from Poincaré to log-Sobolev",
+        "tags": [
+          "Sampling",
+          "Conference Paper",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Nima Anari, Sinho Chewi, and Thuy-Duong Vuong",
@@ -529,7 +637,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Fast parallel sampling under isoperimetry"
+        "title": "Fast parallel sampling under isoperimetry",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Yunbum Kook, Matthew Zhang, Sinho Chewi, Murat Erdogdu, and Mufan Li",
@@ -548,7 +660,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Sampling from the mean-field stationary distribution"
+        "title": "Sampling from the mean-field stationary distribution",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Jason Altschuler and Sinho Chewi",
@@ -575,7 +691,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts"
+        "title": "Faster high-accuracy log-concave sampling via algorithmic warm starts",
+        "tags": [
+          "Sampling",
+          "Conference Paper",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Kwangjun Ahn, Sébastien Bubeck, Sinho Chewi, Yin Tat Lee, Felipe Suárez-Colmenares, and Yi Zhang",
@@ -594,7 +715,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Learning threshold neurons via the \"edge of stability\""
+        "title": "Learning threshold neurons via the \"edge of stability\"",
+        "tags": [
+          "Optimization",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sitan Chen, Sinho Chewi, Holden Lee, Yuanzhi Li, Jianfeng Lu, and Adil Salim",
@@ -617,7 +742,11 @@
             "name": ".bib"
           }
         ],
-        "title": "The probability flow ODE is provably fast"
+        "title": "The probability flow ODE is provably fast",
+        "tags": [
+          "Diffusion Models",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi and Aram-Alexandre Pooladian",
@@ -636,7 +765,12 @@
             "name": ".bib"
           }
         ],
-        "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities"
+        "title": "An entropic generalization of Caffarelli's contraction theorem via covariance inequalities",
+        "tags": [
+          "Optimal Transport",
+          "Functional Inequalities",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi",
@@ -655,7 +789,12 @@
             "name": ".bib"
           }
         ],
-        "title": "The entropic barrier is n-self-concordant"
+        "title": "The entropic barrier is n-self-concordant",
+        "tags": [
+          "Functional Inequalities",
+          "Optimization",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Michael Diao, Krishnakumar Balasubramanian, Sinho Chewi, and Adil Salim",
@@ -678,7 +817,13 @@
             "name": ".bib"
           }
         ],
-        "title": "Forward-backward Gaussian variational inference via JKO in the Bures–Wasserstein space"
+        "title": "Forward-backward Gaussian variational inference via JKO in the Bures–Wasserstein space",
+        "tags": [
+          "Variational Inference",
+          "Optimal Transport",
+          "Optimization",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Matthew Zhang, Sinho Chewi, Mufan Li, Krishnakumar Balasubramanian, and Murat Erdogdu",
@@ -697,7 +842,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Improved discretization analysis for underdamped Langevin Monte Carlo"
+        "title": "Improved discretization analysis for underdamped Langevin Monte Carlo",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, and Anru Zhang",
@@ -732,7 +881,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions"
+        "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions",
+        "tags": [
+          "Diffusion Models",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Holden Lee, and Chen Lu",
@@ -755,7 +908,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Fisher information lower bounds for sampling"
+        "title": "Fisher information lower bounds for sampling",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Sébastien Bubeck, and Adil Salim",
@@ -774,7 +931,11 @@
             "name": ".bib"
           }
         ],
-        "title": "On the complexity of finding stationary points of smooth functions in one dimension"
+        "title": "On the complexity of finding stationary points of smooth functions in one dimension",
+        "tags": [
+          "Optimization",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Philippe Rigollet, and Paxton Turner",
@@ -793,7 +954,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing"
+        "title": "Gaussian discrepancy: a probabilistic relaxation of vector balancing",
+        "tags": [
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Marc Lambert, Sinho Chewi, Francis Bach, Silvère Bonnabel, and Philippe Rigollet",
@@ -824,7 +988,13 @@
             "name": ".bib"
           }
         ],
-        "title": "Variational inference via Wasserstein gradient flows"
+        "title": "Variational inference via Wasserstein gradient flows",
+        "tags": [
+          "Variational Inference",
+          "Optimal Transport",
+          "Optimization",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Yongxin Chen, Sinho Chewi, Adil Salim, and Andre Wibisono",
@@ -855,7 +1025,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Improved analysis for a proximal algorithm for sampling"
+        "title": "Improved analysis for a proximal algorithm for sampling",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
@@ -874,7 +1048,11 @@
             "name": ".bib"
           }
         ],
-        "title": "The query complexity of sampling from strongly log-concave distributions in one dimension"
+        "title": "The query complexity of sampling from strongly log-concave distributions in one dimension",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Krishnakumar Balasubramanian, Sinho Chewi, Murat Erdogdu, Adil Salim, and Matthew Zhang",
@@ -897,7 +1075,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Towards a theory of non-log-concave sampling: first-order stationarity guarantees for Langevin Monte Carlo"
+        "title": "Towards a theory of non-log-concave sampling: first-order stationarity guarantees for Langevin Monte Carlo",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Patrik Gerber, Chen Lu, Thibaut Le Gouic, and Philippe Rigollet",
@@ -916,7 +1098,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Rejection sampling from shape-constrained distributions in sublinear time"
+        "title": "Rejection sampling from shape-constrained distributions in sublinear time",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Jason Altschuler, Sinho Chewi, Patrik Gerber, and Austin Stromme",
@@ -943,7 +1129,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Averaging on the Bures–Wasserstein manifold: dimension-free convergence of gradient descent"
+        "title": "Averaging on the Bures–Wasserstein manifold: dimension-free convergence of gradient descent",
+        "tags": [
+          "Optimal Transport",
+          "Optimization",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Kwangjun Ahn and Sinho Chewi",
@@ -966,7 +1157,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Efficient constrained sampling via the mirror-Langevin algorithm"
+        "title": "Efficient constrained sampling via the mirror-Langevin algorithm",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Hong-Bin Chen, Sinho Chewi, and Jonathan Niles-Weed",
@@ -989,7 +1184,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Dimension-free log-Sobolev inequalities for mixture distributions"
+        "title": "Dimension-free log-Sobolev inequalities for mixture distributions",
+        "tags": [
+          "Functional Inequalities",
+          "Journal Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet",
@@ -1020,7 +1219,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm"
+        "title": "Optimal dimension dependence of the Metropolis-adjusted Langevin algorithm",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin Stromme",
@@ -1039,7 +1242,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Fast and smooth interpolation on Wasserstein space"
+        "title": "Fast and smooth interpolation on Wasserstein space",
+        "tags": [
+          "Optimal Transport",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
@@ -1062,7 +1269,11 @@
             "name": ".bib"
           }
         ],
-        "title": "Exponential ergodicity of mirror-Langevin diffusions"
+        "title": "Exponential ergodicity of mirror-Langevin diffusions",
+        "tags": [
+          "Sampling",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet",
@@ -1085,7 +1296,12 @@
             "name": ".bib"
           }
         ],
-        "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence"
+        "title": "SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence",
+        "tags": [
+          "Variational Inference",
+          "Optimal Transport",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Tyler Maunu, Philippe Rigollet, and Austin Stromme",
@@ -1120,7 +1336,12 @@
             "name": ".bib"
           }
         ],
-        "title": "Gradient descent algorithms for Bures–Wasserstein barycenters"
+        "title": "Gradient descent algorithms for Bures–Wasserstein barycenters",
+        "tags": [
+          "Optimal Transport",
+          "Optimization",
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi, Forest Yang, Avishek Ghosh, Abhay Parekh, and Kannan Ramchandran",
@@ -1139,7 +1360,10 @@
             "name": ".bib"
           }
         ],
-        "title": "Matching observations to distributions: efficient estimation via sparsified Hungarian algorithm"
+        "title": "Matching observations to distributions: efficient estimation via sparsified Hungarian algorithm",
+        "tags": [
+          "Conference Paper"
+        ]
       },
       {
         "authors": "Sinho Chewi and Venkat Anantharam",
@@ -1158,7 +1382,10 @@
             "name": ".bib"
           }
         ],
-        "title": "A combinatorial proof of a formula of Biane and Chapuy"
+        "title": "A combinatorial proof of a formula of Biane and Chapuy",
+        "tags": [
+          "Journal Paper"
+        ]
       }
     ]
   }
