@@ -12,6 +12,30 @@
   "research": {
     "publications": [
       {
+        "authors": "Sinho Chewi, Aram-Alexandre Pooladian, and Matthew Zhang",
+        "date": "August 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2511.01154",
+            "name": "arXiv"
+          },
+          {
+            "link": "https://projecteuclid.org/journals/electronic-communications-in-probability/volume-31/issue-none/Stability-of-the-KimMilman-flow-map/10.1214/26-ECP800.full",
+            "name": "Electronic Communications in Probability"
+          },
+          {
+            "link": "/bibs/ChePooZha26Stability.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Stability of the Kim–Milman flow map",
+        "tags": [
+          "Functional Inequalities",
+          "Optimal Transport",
+          "Journal Paper"
+        ]
+      },
+      {
         "authors": "Sinho Chewi, Atsushi Nitanda, and Matthew Zhang",
         "date": "July 2026",
         "links": [
@@ -455,25 +479,6 @@
         "title": "Sublinear iterations can suffice even for DDPMs",
         "tags": [
           "Diffusion Models"
-        ]
-      },
-      {
-        "authors": "Sinho Chewi, Aram-Alexandre Pooladian, and Matthew Zhang",
-        "date": "November 2025",
-        "links": [
-          {
-            "link": "https://arxiv.org/abs/2511.01154",
-            "name": "arXiv"
-          },
-          {
-            "link": "/bibs/ChePooZha25Stability.bib",
-            "name": ".bib"
-          }
-        ],
-        "title": "Stability of the Kim–Milman flow map",
-        "tags": [
-          "Functional Inequalities",
-          "Optimal Transport"
         ]
       },
       {
