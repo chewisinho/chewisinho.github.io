@@ -12,6 +12,24 @@
   "research": {
     "publications": [
       {
+        "authors": "Hugo Latourelle-Vigeant, Sinho Chewi, Aram-Alexandre Pooladian, John Sous, and Theodor Misiakiewicz",
+        "date": "August 2026",
+        "links": [
+          {
+            "link": "https://arxiv.org/abs/2608.23938",
+            "name": "arXiv"
+          },
+          {
+            "link": "/bibs/Lat+26GeneralizationDDPM.bib",
+            "name": ".bib"
+          }
+        ],
+        "title": "Generalization, memorization, and overfitting for diffusion models trained in the lazy high-dimensional regime",
+        "tags": [
+          "Diffusion Models"
+        ]
+      },
+      {
         "authors": "Fan Chen, Sinho Chewi, Alexander Rakhlin, and Matthew Zhang",
         "date": "August 2026",
         "links": [
